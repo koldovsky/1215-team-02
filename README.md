@@ -23,3 +23,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 ```
 Svitlana Mikheieva
 Tetyana Bohdanovych
+Pavlo Bogush
