@@ -24,7 +24,14 @@
         data-hx-get="global.header-nav.partial.html"
       ></nav>
     </header>
-    <main></main>
+    <main>
+      <section data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.contacts.partial.html"></section>
+      <section data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.form.partial.html"></section>
+    </main>
     <footer>
       <div
         data-hx-trigger="load"
