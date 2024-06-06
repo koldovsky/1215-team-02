@@ -27,3 +27,4 @@ Pavlo Bogush
 Roman Nadraha
 Olya Melnyk
 Marina Bulakh
+Maksym Novitskyi
