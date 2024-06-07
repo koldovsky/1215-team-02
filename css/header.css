@@ -1,0 +1,131 @@
+.header-top {
+  padding: 20px 240px 20px 240px;
+  display: flex;
+  align-items: center;
+}
+.header__hero-container {
+  margin-top: 180px;
+  text-align: center;
+}
+.header {
+  background: var(--hero-green);
+  background: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5) 50%,
+      rgba(46, 47, 66, 0)
+    ),
+    url(../img/hero/hero.jpg);
+  z-index: 999;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top center; 
+  padding-bottom: 124px;
+}
+.header-about{
+    background: var(--hero-green);
+    padding-bottom: 0;
+}
+.header-logo__one {
+  width: 145px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.header-logo {
+  margin-right: 80px;
+}
+.header__menu__bottom {
+  margin-left: auto;
+}
+.header__menu-link {
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+}
+.header__menu-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--hero-white);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.mobile-social-list-icon {
+  fill: var(--hero-white);
+  border: 1px solid white;
+  padding: 3px;
+}
+.mobile-social-list-icon:hover {
+  background: var(--hero-white);
+  fill: #98d2c3;
+}
+
+.header__menu-link:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.header__socials {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+.header__menu-link {
+  font-weight: 300;
+  letter-spacing: calc(0.2 * 1em);
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Ubuntu, sans-serif;
+  color: rgba(255, 255, 255, 0.85);
+}
+.header__title {
+  text-align: center;
+  font-size: 100px;
+  line-height: 1;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: var(--hero-white);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.learn-more-btn {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #9088fe;
+  color: var(--hero-white);
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.learn-more-btn:hover {
+  background-color: var(--hero-green);
+}

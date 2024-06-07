@@ -6,8 +6,16 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="header__nav" data-proofer-ignore>
-        <a href=""><img width="145" src="./img/logotype.svg" alt="logotype"></a>
+    <div class="header-top">
+      <nav class="header__nav" data-proofer-ignore>
+        <div class="header-logo">
+          <a href=""
+            ><img
+              class="header-logo__one"
+              src="./img/logotype.svg"
+              alt="logotype"
+          /></a>
+        </div>
         <ul class="header__menu">
           <li class="header__menu-item">
             <a class="header__menu-link" href="about-us.html">About Us</a>
@@ -16,12 +24,37 @@
             <a class="header__menu-link" href="index.html#services">SERVICES</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link" href="index.html#testimonials">TESTIMONIALS</a>
+            <a class="header__menu-link" href="index.html#testimonials"
+              >TESTIMONIALS</a
+            >
           </li>
           <li class="header__menu-item">
-              <a class="header__menu-link" href="contacts.html">Contacts</a>
+            <a class="header__menu-link" href="contacts.html">Contacts</a>
           </li>
         </ul>
-      </nav>      
+      </nav>
+      <div class="header__menu__bottom">
+        <ul class="header__socials">
+          <li class="header__social-item">
+            <a href="https://www.facebook.com/">
+              <svg class="mobile-social-list-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li class="header__social-item">
+            <a href="https://www.instagram.com/">
+              <svg class="mobile-social-list-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="header__social-item">
+            <a href="https://www.twitter.com/">
+              <svg class="mobile-social-list-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
