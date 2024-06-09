@@ -1,3 +1,7 @@
 @import "global.css";
+@import "header.css";
 @import "about-us.contacts-reference.css";
 @import "about-us.header-hero.css";
+@import "about-us.why-choose-us.css";
+@import "question.css";
+@import "footer.css";
