@@ -1,15 +1,15 @@
 .hero-about-us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #87C8B7;
-    min-height: 225.6px;
-    min-width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87c8b7;
+  min-height: 225.6px;
+  min-width: 320px;
 }
 
 .hero-about-us__title {
-    color: #FFFFFF;
-    font-family: Rajdhani, sans-serif;
-    font-size: 48px;
-    letter-spacing: 5.7px;
+  color: #ffffff;
+  font-family: Rajdhani, sans-serif;
+  font-size: 48px;
+  letter-spacing: 5.7px;
 }
