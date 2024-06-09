@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.stats__item {
+    text-align: center;
+    flex: 1;
+    padding: 25px;
+    color: #666;
+}
+.stats__number {
+    font-size: 95px;
+    margin: 0;
+    color: rgb(221, 225, 230);
+    font-family: "Rajdhani", sans-serif;
+}
+.stats__label {
+    font-size: 35px;
+    margin: 25px;
+    color: #000000;
+}
+.stats__subtext {
+    font-size: 15px;
+    margin: 5px 0 0;
+    color:rgb(102,102,102);
+}
+
+@media (max-width: 768px) {
+.stats {
+flex-direction: column;
+padding: 0;
+}
+}
