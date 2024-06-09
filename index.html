@@ -19,12 +19,14 @@
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <nav
         class="header-nav"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+    </div>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -48,14 +50,30 @@
         data-hx-get="stats.html"
       ></section>
       <section
-        data-hx-trigger="load" 
-        data-hx-swap="outerHTML" 
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
         data-hx-get="reviews.partial.html"
       ></section>
-      <section>
-        data-hx-trigger="load" data-hx-swap="outerHTML"
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="process_how-we-work.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
         data-hx-get="we-explore.html"
-      </section>
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.partners.partial.html"
+      ></section>
+      <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.want-improve-your-hr.partial.html"
+    ></section>
     </main>
     <footer>
       <div
