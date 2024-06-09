@@ -9,6 +9,11 @@
   --hero-green: #98d2c3;
   --hero-white: #ffffff;
   scroll-behavior: smooth;
+  --bg-footer: #262626;
+  --bg-footer-top: #1a1a1a;
+  --faq-bg: #f7f8f9;
+  --faq-text: #21243d;
+  --faq-nav: #8d99ff;
 }
 img {
   display: block;
@@ -18,9 +23,28 @@ img {
 iframe {
   width: 100%;
 }
-a{
+a {
   text-decoration: none;
 }
-ul{
+ul {
   list-style: none;
+}
+.container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
 }
