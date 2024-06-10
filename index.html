@@ -19,12 +19,14 @@
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <nav
         class="header-nav"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+    </div>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -32,6 +34,11 @@
       ></section>
     </header>
     <main>
+      <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.about-company.partial.html"
+    ></section>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -45,7 +52,7 @@
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="stats.html"
+        data-hx-get="index.stats.partial.html"
       ></section>
       <section
         data-hx-trigger="load"
