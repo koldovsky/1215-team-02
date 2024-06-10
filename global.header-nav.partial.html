@@ -9,52 +9,140 @@
     <div class="header-top">
       <nav class="header__nav" data-proofer-ignore>
         <div class="header-logo">
-          <a href="index.html"
-            ><img
+          <a href="index.html">
+            <img
               class="header-logo__one"
               src="./img/logotype.svg"
               alt="logotype"
-          /></a>
+            />
+          </a>
         </div>
-        <ul class="header__menu">
+
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu__button" height="24" width="24">
+            <use href="./img/symbol-defs.svg#menu_btn"></use>
+          </svg>
+        </button>
+      </nav>
+      <div class="header-menu">
+        <nav>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="index.html#services"
+                >SERVICES</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="index.html#testimonials"
+                >TESTIMONIALS</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__menu__bottom">
+          <ul class="header__socials">
+            <li class="header__social-item">
+              <a href="https://www.facebook.com/">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__social-item">
+              <a href="https://www.instagram.com/">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__social-item">
+              <a href="https://www.twitter.com/">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile-menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="header-logo-mob">
+        <div>
+          <a href="index.html">
+            <img
+              class="header-logo__one"
+              src="./img/logotype.svg"
+              alt="logotype"
+            />
+          </a>
+        </div>
+        <button class="button-toggle js-close-menu">
+          <svg class="button-toggle__icon">
+            <use href="./img/symbol-defs.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="header__menu_mob">
+        <ul class="header__menu-mob">
           <li class="header__menu-item">
-            <a class="header__menu-link" href="about-us.html">About Us</a>
+            <a class="header__menu-link-mob" href="about-us.html">About Us</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link" href="index.html#services">SERVICES</a>
+            <a class="header__menu-link-mob" href="index.html#services"
+              >SERVICES</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link" href="index.html#testimonials"
+            <a class="header__menu-link-mob" href="index.html#testimonials"
               >TESTIMONIALS</a
             >
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link" href="contacts.html">Contacts</a>
+            <a class="header__menu-link-mob" href="contacts.html">Contacts</a>
           </li>
         </ul>
-      </nav>
-      <div class="header__menu__bottom">
-        <ul class="header__socials">
-          <li class="header__social-item">
-            <a href="https://www.facebook.com/">
-              <svg class="mobile-social-list-icon" width="24" height="24">
-                <use href="./img/icons.svg#icon-facebook"></use></svg
-            ></a>
-          </li>
-          <li class="header__social-item">
-            <a href="https://www.instagram.com/">
-              <svg class="mobile-social-list-icon" width="24" height="24">
-                <use href="./img/icons.svg#icon-instagram"></use></svg
-            ></a>
-          </li>
-          <li class="header__social-item">
-            <a href="https://www.twitter.com/">
-              <svg class="mobile-social-list-icon" width="24" height="24">
-                <use href="./img/icons.svg#icon-twitter"></use></svg
-            ></a>
-          </li>
-        </ul>
+
+        <div class="header__menu__bottom-mob">
+          <ul class="header__socials-mob">
+            <li class="header__social-item">
+              <a href="https://www.facebook.com/">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__social-item">
+              <a href="https://www.instagram.com/">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__social-item">
+              <a href="https://www.twitter.com/">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+
+    <script src="./js/menu-btn.js"></script>
   </body>
 </html>
