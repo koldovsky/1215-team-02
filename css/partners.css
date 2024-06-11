@@ -1,7 +1,15 @@
+:root {
+  --background-color: #F7F8F9;
+  --text-color: #666666;
+  --heading-color: #21243D;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+}
+
 .partners {
-  background-color: #F7F8F9;
-  color: #666666;
-  font-family: "Ubuntu", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-ubuntu);
   padding-bottom: 120px;
   padding-top: 150px;
   text-align: center;
@@ -14,8 +22,8 @@
 }
 
 .partners h2 {
-  color: #21243D;
-  font-family: "Rajdhani", sans-serif;
+  color: var(--heading-color);
+  font-family: var(--font-rajdhani);
   font-size: 50px;
   letter-spacing: 7.5px;
   margin-top: 20px;
@@ -28,7 +36,7 @@
   margin-top: 25px;
 }
 
-.partners .gallery {
+.partners .partners-gallery {
   display: flex;
   flex-wrap: wrap;
   margin: 0 120px;
