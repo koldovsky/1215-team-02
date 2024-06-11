@@ -35,7 +35,7 @@
 }
 
 .contacts-reference__link {
-  background-color: var(--subtitle-color-services);
+  background-color: var(--global-subtitle-color);
   color: var(--hero-white);
   margin: 10px;
 }

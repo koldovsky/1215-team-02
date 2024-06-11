@@ -11,18 +11,20 @@
   --hero-green: #98d2c3;
   --hero-emerald: #87c8b7;
   --hero-white: #ffffff;
-  --background-color-services:#f7f8f9;
-  --global-title-color:rgb(102, 102, 102);
-  --global-subtitle-color:rgb(33, 36, 61);
+  --background-color-services: #f7f8f9;
+  --global-title-color: rgb(102, 102, 102);
+  --global-subtitle-color: rgb(33, 36, 61);
   --global-text-color: rgb(102, 102, 102);
-  --carousel-services__content__title:#22243d;
+  --carousel-services__content__title: #22243d;
+  --top-industries__learn-more-background-color: #98d2c2;
+  --top-industries__learn-more-background-color-hover: #8d99ff;
+  --top-industries__learn-more-text-color: rgb(255, 255, 255);
   --bg-footer: #262626;
   --bg-footer-top: #1a1a1a;
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
   scroll-behavior: smooth;
-  
 }
 img {
   display: block;
