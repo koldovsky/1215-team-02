@@ -7,7 +7,7 @@
     <title>HR Partner</title>
     <link
       rel="shortcut icon"
-      href="https://placekitten.com/96/139"
+      href="img/favicon.png"
       type="image/x-icon"
     />
     <script
@@ -15,26 +15,70 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <nav
+        class="header-nav"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+    </div>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.header-hero.partial.html"
+      ></section>
     </header>
     <main>
       <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.about-company.partial.html"
+    ></section>
+      <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="services.html"
+        data-hx-get="index.services.partial.html"
       ></section>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="top-industries.html"
+        data-hx-get="index.top-industries.partial.html"
       ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.stats.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="reviews.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="process_how-we-work.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.partners.partial.html"
+      ></section>
+      <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="we-explore.html"
+    ></section>
+      <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.want-improve-your-hr.partial.html"
+    ></section>
     </main>
     <footer>
       <div
@@ -43,5 +87,6 @@
         data-hx-get="index.footer.partial.html"
       ></div>
     </footer>
+    <!-- <script src="./js/menu-btn.js"></script> -->
   </body>
 </html>

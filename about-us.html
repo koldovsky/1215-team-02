@@ -15,31 +15,44 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./css/about-us.css" />
   </head>
   <body>
-    <header class="header">
-      <nav
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
-      ></nav>
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="about-us.header-hero.partial.html"
-      ></section>
+    <header class="header header-about">
+      <div class="container">
+        <nav
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="global.header-nav.partial.html"
+        ></nav>
+      </div>
     </header>
     <main>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
+        data-hx-get="about-us.header-hero.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="about-us.services.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
         data-hx-get="about-us.why-choose-us.partial.html"
       ></section>
-      <div
+      <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="about-us.contacts-reference.partial.html"
-      ></div>
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="about-us.our-team.partial.html"
+      ></section>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
