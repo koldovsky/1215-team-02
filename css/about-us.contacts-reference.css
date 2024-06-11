@@ -1,0 +1,51 @@
+.contacts-reference {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--faq-nav);
+}
+
+.contacts-reference_container {
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;  
+  color: var(--hero-white);
+  font-family: Rajdhani, sans-serif;
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.contacts-reference__article {
+  margin: 10px;
+
+  .contacts-reference__article-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    line-height: 2.25rem;
+    margin: 10px;
+  }
+
+  .contacts-reference__article-body {
+    font-family: Ubuntu, sans-serif;
+    margin: 10px;
+  }
+}
+
+.contacts-reference__link {
+  background-color: var(--subtitle-color-services);
+  color: var(--hero-white);
+  margin: 10px;
+}
+
+.contacts-reference__link:hover {
+  background-color: var(--hero-green);
+}
+
+@media (min-width: 768px) {
+  .contacts-reference_container {
+    flex-direction: row;
+  }
+}
