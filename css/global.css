@@ -11,17 +11,17 @@
   --hero-green: #98d2c3;
   --hero-white: #ffffff;
   --background-color-services:#f7f8f9;
-  --title-color-services:rgb(102, 102, 102);
-  --subtitle-color-services:rgb(33, 36, 61);
-  --text-color-services: rgb(102, 102, 102);
+  --global-title-color:rgb(102, 102, 102);
+  --global-subtitle-color:rgb(33, 36, 61);
+  --global-text-color: rgb(102, 102, 102);
   --carousel-services__content__title:#22243d;
-
-  scroll-behavior: smooth;
   --bg-footer: #262626;
   --bg-footer-top: #1a1a1a;
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
+  scroll-behavior: smooth;
+  
 }
 img {
   display: block;
