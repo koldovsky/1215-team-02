@@ -1,0 +1,111 @@
+.carousel-services {
+  padding-bottom: 140px;
+  padding-top: 150px;
+  background-color: var(--background-color-services);
+}
+.carousel-services__title {
+  color: var(--global-title-color);
+  text-align: center;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 13px;
+  letter-spacing: 1.3px;
+}
+.carousel-services__subtitle {
+  color: var(--global-subtitle-color);
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 7.5px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+.carousel-services__text {
+  margin-top: 25px;
+  text-align: center;
+  color: var(--global-text-color);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: normal;
+}
+
+.carousel-services__content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  /* Потім додати тут width коли вже буде карусель */
+}
+.carousel-services__content img {
+  width: 70px;
+  height: 70px;
+}
+.carousel-services__content {
+  margin-top: 50px;
+  flex: 1 1 calc(25% - 40px);
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  width: auto;
+}
+.carousel-services__content__title {
+  margin-top: 20px;
+  color: var(--carousel-services__content__title);
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 38px;
+  text-align: left;
+}
+.carousel-services__content__text {
+  margin-top: 20px;
+  text-align: left;
+  color: var(--global-text-color);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 27px;
+  letter-spacing: normal;
+}
+.carousel-services__content__list {
+  margin-top: 20px;
+}
+.carousel-services__content__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.carousel-services__content__list-item-text {
+  color: var(--global-text-color);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  margin-left: 10px;
+}
+.check-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-size: cover;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" height="100%"><switch fill="%238d99ff"><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"></foreignObject><g fill="%238d99ff"><g fill="%238d99ff"><path d="M50,2.5C23.8,2.5,2.5,23.8,2.5,50S23.8,97.5,50,97.5S97.5,76.2,97.5,50S76.2,2.5,50,2.5z M50,85.3 c-19.5,0-35.3-15.8-35.3-35.3S30.5,14.7,50,14.7S85.3,30.5,85.3,50S69.5,85.3,50,85.3z" fill="%238d99ff"></path><path d="M61.9,35l-17,17l-6.9-6.9c-2.4-2.4-6.2-2.4-8.6,0c-2.4,2.4-2.4,6.2,0,8.6L40.6,65c1.1,1.1,2.7,1.8,4.3,1.8 c1.6,0,3.2-0.6,4.3-1.8l21.4-21.4c2.4-2.4,2.4-6.2,0-8.6C68.2,32.6,64.3,32.6,61.9,35z" fill="%238d99ff"></path></g></g></switch></svg>');
+}
+ul {
+  list-style: none;
+}
