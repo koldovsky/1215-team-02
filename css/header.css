@@ -1,5 +1,4 @@
 .header-top {
-  /* padding: 20px 240px 20px 240px; */
   padding: 20px 0;
   display: flex;
   align-items: center;
@@ -34,7 +33,6 @@
 }
 
 .header__nav {
-  /* flex: 1; */
   display: flex;
   align-items: center;
 }
@@ -43,9 +41,7 @@
   list-style: none;
   gap: 24px;
 }
-/* .header-logo {
-  margin-right: 175px;
-} */
+
 .header__menu__bottom {
   margin-left: auto;
 }
@@ -132,7 +128,7 @@
 .learn-more-btn:hover {
   background-color: var(--hero-green);
 }
-/* моб меню */
+
 @media screen and (max-width: 1119px) {
   .header-menu {
     display: none;
@@ -146,7 +142,7 @@
     justify-content: flex-end;
   }
 }
-/* МЕНЮ ВІДКРИТТЯ -КНОПКА*/
+
 .menu-toggle {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -171,13 +167,13 @@
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 1199px) {
   .header__title {
     font-size: 100px;
     font-weight: 800;
   }
 }
-/* 3) стилі до кнопки закриття */
+
 .button-toggle {
   position: absolute;
   top: 10px;
@@ -202,16 +198,12 @@
   padding-bottom: 40px;
   width: 100vw;
   height: 100vh;
-  /* padding-left: 40px; */
-  /* padding-top: 40px; */
-  /* padding-bottom: 40px; */
   z-index: 999;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   transform: translateX(100%);
   background: #98d2c3;
-  /* transition: transform 500ms linear; */
   align-items: center;
 }
 .menu-container.is-open {
