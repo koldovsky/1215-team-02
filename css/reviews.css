@@ -1,5 +1,5 @@
 .reviews {
-  background-color: var(--faq-bg);
+  background-color: var(--reviews-background);
   padding: 90px 0;
 }
 .reviews__all-items {
@@ -8,8 +8,8 @@
   align-items: center;
 }
 .reviews__arrow {
-  background-color: gray;
-  color: white;
+  background-color: var(--reviews-arrows-background);
+  color: var(--reviews-arrows-color);
   border-radius: 50%;
   font-size: 12px;
   text-align: center;
@@ -29,6 +29,7 @@
 .reviews__articles {
   display: flex;
   flex-direction: column;
+  color: var(--global-subtitle-color);
 }
 .reviews__author {
   font-size: 12px;
