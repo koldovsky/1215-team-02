@@ -1,0 +1,22 @@
+.reviews {
+  background-color: var(--faq-bg);
+  padding: 90px 0;
+}
+.reviews__review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.reviews__author {
+  font-size: 1rem;
+}
+.reviews__review-item p {
+    text-align: center;
+}
+.reviews__author-title {
+    font-weight: 400;
+}
