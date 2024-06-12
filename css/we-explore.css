@@ -1,0 +1,33 @@
+:root {
+    --font-ubuntu: "Ubuntu", sans-serif;
+    --font-rajdhani: "Rajdhani", sans-serif;
+  }
+.we-explore {
+    background-color: rgb(255 255 255);
+    padding: 100px;
+}
+.we-explore__block{
+  text-align: center;
+}
+.we-explore__title{
+    font-family: var(--font-ubuntu);
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    font-size: 12px;
+}
+.we-explore__subtitle{
+    font-family: var(--font-rajdhani);
+    font-size: 38px;
+    color: rgb(33, 36, 61);
+    font-weight: 700;
+}
+.we-explore__description{
+    font-family: var(--font-ubuntu);
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+}
+.we-explore__img{
+width: 697px;
+padding-top: 50px;
+}

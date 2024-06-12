@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: space-around;
   color: var(--hero-white);
   font-family: Rajdhani, sans-serif;
   font-size: 1.1rem;
