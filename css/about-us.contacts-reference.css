@@ -14,6 +14,8 @@
   justify-content: center;
   flex-direction: column;
   max-width: 1200px;
+  align-items: center;
+  justify-content: space-around;
   color: var(--hero-white);
   font-family: Rajdhani, sans-serif;
 }
@@ -35,7 +37,7 @@
 }
 
 .contacts-reference__link {
-  background-color: var(--subtitle-color-services);
+  background-color: var(--global-subtitle-color);
   color: var(--hero-white);
   padding: 15px 30px;
   border-radius: 6px;

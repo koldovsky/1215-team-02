@@ -17,7 +17,6 @@
             />
           </a>
         </div>
-
         <button
           class="menu-toggle js-open-menu"
           aria-expanded="false"
@@ -35,14 +34,10 @@
               <a class="header__menu-link" href="about-us.html">About Us</a>
             </li>
             <li class="header__menu-item">
-              <a class="header__menu-link" href="index.html"
-                >SERVICES</a
-              >
+              <a class="header__menu-link" href="index.html">SERVICES</a>
             </li>
             <li class="header__menu-item">
-              <a class="header__menu-link" href="index.html"
-                >TESTIMONIALS</a
-              >
+              <a class="header__menu-link" href="index.html">TESTIMONIALS</a>
             </li>
             <li class="header__menu-item">
               <a class="header__menu-link" href="contacts.html">Contacts</a>
@@ -52,21 +47,21 @@
         <div class="header__menu__bottom">
           <ul class="header__socials">
             <li class="header__social-item">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/" target="_blank">
                 <svg class="mobile-social-list-icon" width="24" height="24">
                   <use href="./img/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="header__social-item">
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/" target="_blank">
                 <svg class="mobile-social-list-icon" width="24" height="24">
                   <use href="./img/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="header__social-item">
-              <a href="https://www.twitter.com/">
+              <a href="https://www.twitter.com/" target="_blank">
                 <svg class="mobile-social-list-icon" width="24" height="24">
                   <use href="./img/icons.svg#icon-twitter"></use>
                 </svg>
@@ -75,8 +70,12 @@
           </ul>
         </div>
       </div>
+      <div class="checkbox-thumb">
+        <input type="checkbox" id="checkbox" class="checkbox" />
+        <label class="theme-toggle" for="checkbox"></label>
+        <div class="checkbox-circle">&#9728;</div>
+      </div>
     </div>
-
     <!-- mobile-menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <div class="header-logo-mob">
@@ -101,37 +100,32 @@
             <a class="header__menu-link-mob" href="about-us.html">About Us</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link-mob" href="index.html"
-              >SERVICES</a
-            >
+            <a class="header__menu-link-mob" href="index.html">SERVICES</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link-mob" href="index.html"
-              >TESTIMONIALS</a
-            >
+            <a class="header__menu-link-mob" href="index.html">TESTIMONIALS</a>
           </li>
           <li class="header__menu-item">
             <a class="header__menu-link-mob" href="contacts.html">Contacts</a>
           </li>
         </ul>
-
         <div class="header__menu__bottom-mob">
           <ul class="header__socials-mob">
             <li class="header__social-item">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/" target="_blank">
                 <svg class="mobile-social-list-icon" width="24" height="24">
                   <use href="./img/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="header__social-item">
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/" target="_blank">
                 <svg class="mobile-social-list-icon" width="24" height="24">
                   <use href="./img/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="header__social-item">
+            <li class="header__social-item" target="_blank">
               <a href="https://www.twitter.com/">
                 <svg class="mobile-social-list-icon" width="24" height="24">
                   <use href="./img/icons.svg#icon-twitter"></use>
@@ -142,7 +136,5 @@
         </div>
       </div>
     </div>
-
-    <script src="./js/menu-btn.js"></script>
   </body>
 </html>
