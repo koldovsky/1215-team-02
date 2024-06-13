@@ -1,5 +1,6 @@
 .process {
   background-image: url("./../img/process_how-we-work.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .process__text-container {
@@ -61,7 +62,15 @@
   font-size: 25px;
 }
 @media (min-width: 768px) {
+  .process {
+    background-position: 35%;
+  }
   .process__text-container {
     max-width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .process {
+    background-position: 40%;
   }
 }
