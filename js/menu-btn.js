@@ -10,7 +10,7 @@
     const scrollLockMethod = !isMenuOpen
       ? "disableBodyScroll"
       : "enableBodyScroll";
-    bodyScrollLock[scrollLockMethod](document.body);
+    // bodyScrollLock[scrollLockMethod](document.body);
   };
   openMenyBtn.addEventListener("click", toggleMenu);
   closeMenuBtn.addEventListener("click", toggleMenu);

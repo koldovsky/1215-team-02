@@ -17,14 +17,26 @@
   --top-industries__learn-more-background-color: #98d2c2;
   --top-industries__learn-more-background-color-hover: #8d99ff;
   --top-industries__learn-more-text-color: rgb(255, 255, 255);
+  --reviews-background: #f7f8f9;
+  --reviews-arrows-background: rgb(33, 36, 61);
+  --reviews-quotes-color: #d3d3d3;
+  --reviews-arrows-color: #fff;
+  --process-list-marker-color: #8d99ff;
   --bg-footer: #262626;
   --bg-footer-top: #1a1a1a;
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
+<<<<<<< HEAD
   --we-explore__background-color:#FFFFFF;
   --we-explore__text-color-light:rgb(102, 102, 102);
   --we-explore__text-color-dark:#21243D;
+=======
+  --thema-light: #ffffff;
+  --thema-dark: #000000;
+  --thema-logo: #8d99ff;
+  --thema-div: #f0f0f0;
+>>>>>>> 29002135ad56ea87a3b3e95421202b8c8b262708
   scroll-behavior: smooth;
 }
 img {
