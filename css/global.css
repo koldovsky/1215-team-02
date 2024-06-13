@@ -22,6 +22,9 @@
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
+  --we-explore__background-color:#FFFFFF;
+  --we-explore__text-color-light:rgb(102, 102, 102);
+  --we-explore__text-color-dark:#21243D;
   scroll-behavior: smooth;
 }
 img {
