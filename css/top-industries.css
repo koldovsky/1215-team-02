@@ -1,10 +1,7 @@
-ul {
-  list-style: none;
-}
 .top-industries {
   display: flex;
   justify-content: center;
-  padding: 150px 0;
+  position: relative;
 }
 .top-industries-container {
   display: flex;
@@ -14,13 +11,14 @@ ul {
 .top-industries__img {
   flex: 1;
   display: flex;
-}
-.top-industries__img img {
+  background-image: url(../img/top-industries/people-sitting.webp);
+  background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 .top-industries__content {
+  padding: 130px 0;
   flex: 1;
   max-width: 700px;
   padding-left: 30px;

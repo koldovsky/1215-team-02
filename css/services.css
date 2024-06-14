@@ -2,6 +2,8 @@
   padding-bottom: 140px;
   padding-top: 150px;
   background-color: var(--background-color-services);
+  /* max-width: 1200px;
+  margin: auto; */
 }
 .carousel-services__title {
   color: var(--global-title-color);
