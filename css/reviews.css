@@ -1,0 +1,45 @@
+.reviews {
+  background-color: var(--reviews-background);
+  padding: 90px 0;
+}
+.reviews__all-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.reviews__arrow {
+  background-color: var(--reviews-arrows-background);
+  color: var(--reviews-arrows-color);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 10px;
+}
+.reviews__review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: 0.2rem;
+}
+.reviews__articles {
+  display: flex;
+  flex-direction: column;
+  color: var(--global-subtitle-color);
+}
+.reviews__author {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  line-height: 0.813rem;
+  letter-spacing: 0.081rem;
+}
+.reviews__review-item p {
+  text-align: center;
+}
+.reviews__author-title {
+  font-weight: 400;
+}

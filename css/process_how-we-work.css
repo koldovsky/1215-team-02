@@ -1,0 +1,76 @@
+.process {
+  background-image: url("./../img/process_how-we-work.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.process__text-container {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.process__title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--global-subtitle-color);
+  line-height: 0.75rem;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+}
+.process__subtitle {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.375rem;
+  font-weight: 700;
+  color: var(--global-subtitle-color);
+  line-height: 2.85rem;
+  letter-spacing: 0.356rem;
+  text-transform: uppercase;
+}
+.process__description {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  color: var(--global-text-color);
+  line-height: 1.575rem;
+}
+.process__step-title {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--global-subtitle-color);
+  line-height: 2.2rem;
+  letter-spacing: 0.138rem;
+  text-transform: uppercase;
+  padding: 0 0 5px 0;
+}
+.process__step-item {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.938rem;
+  color: var(--global-text-color);
+  line-height: 1.4rem;
+}
+.process__step li {
+  position: relative;
+  padding-left: 20px;
+}
+.process__step-list li::before {
+  content: "•";
+  color: var(--process-list-marker-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.7rem;
+}
+@media (min-width: 768px) {
+  .process {
+    background-position: 35%;
+  }
+  .process__text-container {
+    max-width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .process {
+    background-position: 40%;
+  }
+}

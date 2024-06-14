@@ -2,14 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87c8b7;
-  min-height: 225.6px;
-  min-width: 320px;
+  background-color: var(--hero-emerald);
+  height: 15rem;
 }
 
 .hero-about-us__title {
-  color: #ffffff;
+  color: var(--hero-white);
   font-family: Rajdhani, sans-serif;
-  font-size: 48px;
-  letter-spacing: 5.7px;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
 }
