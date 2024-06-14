@@ -1,0 +1,182 @@
+.why-choose-us {
+    flex-basis: 100%;
+    padding-top: 100px;
+    background-color:var(--background-color-services);
+    @media  (min-width: 768px) {
+        padding-top: 125px;
+        padding-bottom: 110px;
+    }
+     @media  (min-width: 1200px) {
+            padding-top: 150px;
+            padding-bottom: 130px;
+     }
+}
+.why-choose-us__wrapper {
+    display: flex;
+    flex-basis: 100%;
+    min-width: 320px;
+    flex-direction: column;
+    @media  (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+    }
+     @media  (min-width: 1200px) {
+            display: flex;
+            flex-direction: row;
+     }
+}
+.why-choose-us__image-container {
+    flex-basis: 50%;
+    margin-top: -100px;
+    padding-top: 192px;
+    width: 100%;
+        @media (min-width: 768px) {
+            padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-top: -125px;
+        margin-bottom: -110px;
+        }
+}
+.why-choose-us__img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.why-choose-us__text-container {
+    display: block;
+    flex-basis: 50%;
+    padding: 100px 30px 90px 30px;
+    @media (min-width: 768px) {
+    padding: 0 30px 0 30px;
+ }
+}
+.text-container__wraper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    padding: 0 15px 0px 15px;
+}
+.why-choose-us__title {
+    justify-content: flex-start;
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    line-height: 12px;
+    text-align: left;
+    color: var(--title-color-services);
+}
+.why-choose-us__text--big {
+    margin-top: 20px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 5.7px;
+    line-height: 45.6px;
+    text-align: left;
+    color: rgb(33, 36, 61);
+    text-align: left;
+    margin-block-start: 20px;
+    vertical-align: baseline;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+.why-choose-us__text--medium {
+    margin-top: 25px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 25.2px;
+    text-align: left;
+    color: var(--title-color-services);
+    text-decoration: none;
+    font-optical-sizing: auto;
+    text-align: left;
+    margin-block-start: 25px;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+.why-choose-us__text--small {
+    margin-top: 25px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 27.2px;
+    text-align: left;
+    color: var(--title-color-services);
+    text-decoration: none;
+    font-optical-sizing: auto;
+    text-align: left;
+    margin-block-start: 25px;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+.why-choose-us__icon-container {
+    margin-top: 20px;
+}
+.why-choose-us__list {
+   text-align: left;
+}
+.why-choose-us__list-item {
+    display: flex;
+    flex-basis: 100%;
+    min-width: 320px;
+    flex-direction: row;
+    margin: 0 -7.5px 0 -7.5px;
+    padding: 7.5px 0 7.5px 0;
+}
+.why-choose-us__list-image {
+    width: 50px;
+    padding: 12px;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    text-align: center;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    text-align: center;
+}
+.why-choose-us__list-text {
+    margin: 7.5px;
+    text-align: left;
+    justify-content: center;
+    min-width: 40%;
+}
+.why-choose-us__list-title {
+   display: flex;
+    font-family: Rajdhani, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    line-height: 35.2px;
+    margin-inline-end: 5px;
+    margin-right: 5px;;
+    text-align: left;
+    color: var(--subtitle-color-services);
+    max-width: 100%;
+}
+.why-choose-us__list-description {
+    display: flex;
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--title-color-services);
+    text-decoration: none;
+    text-align: left;
+    line-height: 22.4px;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+.why-choose-us__icon-img {
+    width: 50px;
+    padding: 12px;
+}
