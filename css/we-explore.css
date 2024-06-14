@@ -1,0 +1,62 @@
+.we-explore{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--we-explore__background-color);
+}
+.we-explore__title{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-family:var(--font-ubuntu);
+    color: var(--we-explore__text-color-light);
+}
+.we-explore__subtitle {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    font-family: var(--font-rajdhani);
+    color: var(--we-explore__text-color-dark);
+}
+.we-explore__description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--font-ubuntu);
+    color: var(--we-explore__text-color-light);
+}
+.we-explore__block-img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.we-explore__img {
+    border-radius: 6px;
+   overflow: hidden;
+}
+.we-explore__item {
+    text-align: left;
+}
+.we-explore__item-title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--font-rajdhani);
+    color: var(--we-explore__text-color-dark);
+    padding-bottom: 30px;
+}
+.we-explore__item-description {
+    font-size: 17px;
+    font-weight: 300;
+    font-family: var(--font-ubuntu);
+    color: var(--we-explore__text-color-light);
+    padding-bottom: 20px;
+}
+.we-explore__item-link {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: var(--font-rajdhani);
+    color: var(--we-explore__text-color-dark);
+}
+.we-explore__item-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
