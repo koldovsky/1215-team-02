@@ -8,21 +8,19 @@
 }
 
 .contacts-reference_container {
-  display: flex;
+  display: grid;
   gap: 2rem;
-  align-items: flex-start;
   justify-content: center;
-  flex-direction: column;
-  max-width: 1200px;
   align-items: center;
-  justify-content: space-around;
+  max-width: 1200px;
   color: var(--hero-white);
   font-family: Rajdhani, sans-serif;
 }
 
 .contacts-reference__article {
+  text-wrap: pretty;
   .contacts-reference__article-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 0.2rem;
     font-weight: 700;
     line-height: 1.6;
