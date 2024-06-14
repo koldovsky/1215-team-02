@@ -27,16 +27,18 @@
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
-<<<<<<< HEAD
   --we-explore__background-color:#FFFFFF;
   --we-explore__text-color-light:rgb(102, 102, 102);
   --we-explore__text-color-dark:#21243D;
-=======
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --we-explore__background-color:#FFFFFF;
+  --we-explore__text-color-light:rgb(102, 102, 102);
+  --we-explore__text-color-dark:#21243D;
   --thema-light: #ffffff;
   --thema-dark: #000000;
   --thema-logo: #8d99ff;
   --thema-div: #f0f0f0;
->>>>>>> 29002135ad56ea87a3b3e95421202b8c8b262708
   scroll-behavior: smooth;
 }
 img {

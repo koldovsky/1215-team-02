@@ -1,10 +1,3 @@
-:root {
-    --we-explore__background-color:#FFFFFF;
-  --we-explore__text-color-light:rgb(102, 102, 102);
-  --we-explore__text-color-dark:#21243D;
-  --font-ubuntu: "Ubuntu", sans-serif;
-  --font-rajdhani: "Rajdhani", sans-serif;
-}
 .we-explore{
     padding-top: 70px;
     padding-bottom: 70px;
