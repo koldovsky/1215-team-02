@@ -49,11 +49,11 @@
   color: var(--global-text-color);
   line-height: 1.4rem;
 }
-.process__step li {
+.process__step .process__step-item {
   position: relative;
   padding-left: 20px;
 }
-.process__step-list li::before {
+.process__step-list .process__step-item::before {
   content: "•";
   color: var(--process-list-marker-color);
   position: absolute;
