@@ -4,6 +4,7 @@
   background-color: #f7f8f9;
   border: 0;
   letter-spacing: 2px;
+  flex-wrap: wrap;
 }
 .stats__item {
   text-align: center;
