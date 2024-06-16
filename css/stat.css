@@ -1,0 +1,44 @@
+.stats {
+  display: flex;
+  width: 100%;
+  background-color: #f7f8f9;
+  border: 0;
+  letter-spacing: 2px;
+  flex-wrap: wrap;
+}
+.stats__item {
+  text-align: center;
+  flex: 1;
+  padding: 15px;
+  color: #666;
+}
+.stats__number {
+  font-size: 110px;
+  margin: 0;
+  color: rgb(221, 225, 230);
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  letter-spacing: 17px;
+  margin-top: 20px;
+}
+.stats__label {
+  color: var(--subtitle-color-services);
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: auto;
+}
+.stats__subtext {
+  margin-top: 25px;
+  color: var(--text-color-services);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  margin-bottom: 65px;
+}
+
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    padding: 0;
+  }
+}

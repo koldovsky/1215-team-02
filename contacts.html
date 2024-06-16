@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HR Partner</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contacts.css" />
     <link
       rel="shortcut icon"
       href="https://placekitten.com/96/139"
@@ -19,27 +19,30 @@
   </head>
   <body>
     <header class="header header-about">
-      <nav
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
-      ></nav>
+      <div class="container">
+        <nav
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="global.header-nav.partial.html"
+        ></nav>
+      </div>
     </header>
     <main>
-
-      <section data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.contacts.partial.html"></section>
-      <section data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.form.partial.html"></section>
-
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.contact-us.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.contacts-form.partial.html"
+      ></section>
       <div
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="contacts.location.partial.html"
       ></div>
-
     </main>
     <footer>
       <div
@@ -48,5 +51,6 @@
         data-hx-get="index.footer.partial.html"
       ></div>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
