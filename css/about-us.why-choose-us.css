@@ -137,7 +137,15 @@
     height: 100%;
     max-width: 100%;
     border-radius: 50%;
+    background: var(--background-color-services);
     text-align: center;
+    padding: 12px;
+    @media (min-width: 768px) {
+      padding: 15px;
+    }
+    @media (min-width: 1200px) {
+      padding: 15px;
+    }
   }
   .why-choose-us__list-text {
     margin: 7.5px;
@@ -157,12 +165,19 @@
     text-align: left;
     color: var(--subtitle-color-services);
     max-width: 100%;
+    @media (min-width: 768px) {
+      font-size: 23px;
+    }
+    @media (min-width: 1200px) {
+     font-size: 24px;
+    }
   }
   .why-choose-us__list-description {
     display: flex;
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
     font-weight: 300;
+    font-optical-sizing: auto;
     letter-spacing: normal;
     text-align: left;
     color: var(--title-color-services);
@@ -171,8 +186,19 @@
     line-height: 22.4px;
     vertical-align: baseline;
     max-width: 100%;
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1200px) {
+     font-size: 15px;
+    }
   }
   .why-choose-us__icon-img {
-    width: 50px;
-    padding: 12px;
+    width: 26px;
+    @media (min-width: 768px) {
+      width: 40px;
+    }
+    @media (min-width: 1200px) {
+     width: 50px;;
+    }
   }
