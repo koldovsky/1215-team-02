@@ -1,60 +1,60 @@
-.services__title {
-  font-size: 13px;
-  line-height: 1;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.04em;
-  color: #21243d;
-  text-transform: uppercase;
-}
-.services {
-  padding: 60px 0;
-  background-color: #f7f8f9;
-}
-.services__label {
-  margin: 20px 0;
-  color: #21243d;
-  font-size: 50px;
-  line-height: 1.2;
-  font-family: "Rajdhani", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-style: normal;
-  letter-spacing: 0.02em;
-}
-.services__text-title {
-  color: #21243d;
-  font-size: 18px;
-  line-height: 1.4;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.02rem;
-  text-transform: none;
-  margin-bottom: 20px;
-}
-.services__text {
-  font-size: 17px;
-  line-height: 1.6;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 0.01rem;
-  color: #21243d;
-  text-transform: none;
-  margin-bottom: 30px;
-}
-
-@media (min-width: 768px) {
-  .services__container {
-    display: flex;
-    gap: 40px;
+.servicestitle {
+    font-size: 13px;
+    line-height: 1;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #21243d;
+    text-transform: uppercase;
   }
-  .services__intro {
-    width: calc((100% - 40px) / 2);
+  .services {
+    padding: 60px 0;
+    background-color: #f7f8f9;
   }
-  .services__description {
-    width: calc((100% - 40px) / 2);
+  .serviceslabel {
+    margin: 20px 0;
+    color: #21243d;
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.02em;
   }
-}
+  .servicestext-title {
+    color: #21243d;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+    text-transform: none;
+    margin-bottom: 20px;
+  }
+  .servicestext {
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.01rem;
+    color: #21243d;
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .servicescontainer {
+      display: flex;
+      gap: 40px;
+    }
+    .servicesintro {
+      width: calc((100% - 40px) / 2);
+    }
+    .servicesdescription {
+      width: calc((100% - 40px) / 2);
+    }
+  }
