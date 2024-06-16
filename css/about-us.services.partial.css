@@ -1,7 +1,11 @@
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;}
 
+.services__title{
+    font-size: 13px;
+    line-height: 1;
+    font-family:'Ubuntu', sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:  1em;
+    color: #21243D;
+    text-transform: uppercase;
+}
