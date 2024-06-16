@@ -11,7 +11,7 @@
   background-color: var(--reviews-arrows-background);
   color: var(--reviews-arrows-color);
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   padding: 10px;
 }
@@ -21,10 +21,10 @@
   align-items: center;
   gap: 40px;
   font-family: "Rajdhani", sans-serif;
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 33.6px;
-  letter-spacing: 2.4px;
+  line-height: 2.8rem;
+  letter-spacing: 0.2rem;
 }
 .reviews__articles {
   display: flex;
@@ -32,12 +32,12 @@
   color: var(--global-subtitle-color);
 }
 .reviews__author {
-  font-size: 12px;
   font-family: "Ubuntu", sans-serif;
-  line-height: 12px;
-  letter-spacing: 1.2px;
+  font-size: 0.813rem;
+  line-height: 0.813rem;
+  letter-spacing: 0.081rem;
 }
-.reviews__review-item p {
+.reviews__text {
   text-align: center;
 }
 .reviews__author-title {

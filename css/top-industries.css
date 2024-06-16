@@ -1,30 +1,18 @@
-ul {
-  list-style: none;
-}
-.top-industries {
-  display: flex;
-  justify-content: center;
-  padding: 150px 0;
-}
 .top-industries-container {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .top-industries__img {
-  flex: 1;
-  display: flex;
-}
-.top-industries__img img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  background-image: url(../img/top-industries/people-sitting.webp);
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 16 / 9;
 }
-.top-industries__content {
-  flex: 1;
-  max-width: 700px;
-  padding-left: 30px;
-  padding-right: 30px;
+.top-industries-content-container {
+  padding: 100px 30px;
 }
 .top-industries__title {
   color: var(--global-title-color);
@@ -35,17 +23,19 @@ ul {
   font-style: normal;
   line-height: 13px;
   letter-spacing: 1.3px;
+  text-align: left;
 }
 .top-industries__subtitle {
   color: var(--global-subtitle-color);
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 50px;
-  letter-spacing: 7.5px;
-  line-height: 60px;
+  font-size: 38px;
+  letter-spacing: 5px;
+  line-height: 45px;
   text-align: center;
   margin-top: 20px;
+  text-align: left;
 }
 .top-industries__text {
   margin-top: 25px;
@@ -167,4 +157,28 @@ ul {
 }
 .top-industries__learn-more:hover {
   background-color: var(--top-industries__learn-more-background-color-hover);
+}
+@media (min-width: 768px) {
+  .top-industries-container {
+    flex-direction: row;
+  }
+  .top-industries__img {
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+  }
+  .top-industries-content-container {
+    flex: 1;
+    max-width: 700px;
+    justify-content: center;
+    padding: 125px 30;
+  }
+}
+
+@media(min-width:1100px){
+  .top-industries__subtitle{
+    font-size: 50px;
+    letter-spacing: 7.5px;
+    line-height: 60px;
+  }
 }
