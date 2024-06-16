@@ -1,6 +1,7 @@
 function init() {
   import("./menu-btn.js");
   import("./thema.js");
+  import("./accordion.js");
 }
 
 const totalPartials = document.querySelectorAll(
