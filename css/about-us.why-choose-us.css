@@ -125,7 +125,6 @@
   .why-choose-us__list-item {
     display: flex;
     flex-basis: 100%;
-    min-width: 320px;
     flex-direction: row;
     margin: 0 -7.5px 0 -7.5px;
     padding: 7.5px 0 7.5px 0;
