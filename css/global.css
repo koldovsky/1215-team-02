@@ -22,6 +22,8 @@
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
+  --contacts-bg: #87c8b7;
+  --contacts-form-bg: #ffffff; 
 }
 img {
   display: block;
