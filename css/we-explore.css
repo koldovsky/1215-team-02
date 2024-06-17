@@ -55,12 +55,6 @@
   border-radius: 6px;
   overflow: hidden;
 }
-.we-exploreitem {
-  display: flex;
-  text-align: left;
-  gap: 20px;
-  flex-direction: column;
-}
 .we-exploreitem-title {
   font-size: 22px;
   font-weight: 700;
@@ -79,6 +73,7 @@
   font-weight: 700;
   font-family: var(--font-rajdhani);
   color: var(--we-explore__text-color-dark);
+  margin-bottom: 20px;
 }
 .we-exploreitem-link:hover {
   cursor: pointer;
