@@ -4,20 +4,12 @@
 .faq-container {
   padding: 120px 15px;
 }
-.accordion__list{
+.accordion__list {
   display: flex;
-    flex-direction: column;
-    gap: 20px;
+  flex-direction: column;
+  gap: 20px;
 }
-/* @media screen and (min-width: 768px) {
-  .faq-container {
-    display: flex;
-    padding: 120px 0;
-    gap: 20px;
-    align-items: center;
-  }
 
-} */
 @media screen and (min-width: 1200px) {
   .faq-container {
     display: flex;
@@ -26,10 +18,10 @@
     align-items: center;
   }
 
-  .question{
+  .question {
     width: calc((100% - 40px) / 2);
   }
-  .accordion{
+  .accordion {
     width: calc((100% - 40px) / 2);
   }
 }
@@ -121,12 +113,12 @@
   text-transform: none;
 }
 .accordion__content {
-    display: none;
-  }
-  
-  .accordion__content.active {
-    display: block;
-  }
+  display: none;
+}
+
+.accordion__content.active {
+  display: block;
+}
 
 .accordion__header::after {
   content: "►";
