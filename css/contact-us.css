@@ -1,15 +1,15 @@
 .contact-us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--contacts-bg);
-    min-height: 225.6px;
-    min-width: 320px;
-  }
-  
-  .contact-us__title {
-    color: var(--hero-white);
-    font-family: "Rajdhani", sans-serif;
-    font-size: 48px;
-    letter-spacing: 5.7px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--contacts-bg);
+  min-height: 225.6px;
+  min-width: 320px;
+}
+
+.contact-us__title {
+  color: var(--hero-white);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 48px;
+  letter-spacing: 5.7px;
+}

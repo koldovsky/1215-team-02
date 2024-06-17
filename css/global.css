@@ -5,10 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --hero-green: #98d2c3;
   --hero-emerald: #87c8b7;
   --hero-white: #ffffff;
+  --header-bg-menu: #98d2c3;
   --background-color-services: #f7f8f9;
   --global-title-color: #666666;
   --global-subtitle-color: #21243d;
@@ -22,6 +24,7 @@
   --testimonials-quotes-color: #d3d3d3;
   --testimonials-arrows-color: #fff;
   --process-list-marker-color: #8d99ff;
+  --about-us-titile: #21243d;
   --bg-footer: #262626;
   --bg-footer-top: #1a1a1a;
   --faq-bg: #f7f8f9;
@@ -44,6 +47,14 @@
   --thema-dark: #000000;
   --thema-logo: #8d99ff;
   --thema-div: #f0f0f0;
+  --background-color: #f7f8f9;
+  --text-color: #666666;
+  --heading-color: #21243d;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --stats-bg: #f7f8f9;
+  --stats-item: #666;
+  --stats-number: rgb(221, 225, 230);
   --what-we-do__header-color:#666666;
   --what-we-do__button-hover-color:#98d2c3;
   --what-we-do__contact-button-backround-color:#232641;
