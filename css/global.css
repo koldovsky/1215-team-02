@@ -27,24 +27,19 @@
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
-<<<<<<< HEAD
   --contacts-bg: #87c8b7;
   --contacts-form-bg: #ffffff; 
-=======
   --we-explore__background-color:#FFFFFF;
   --we-explore__text-color-light:#666666;
   --we-explore__text-color-dark:#21243D;
   --font-ubuntu: "Ubuntu", sans-serif;
   --font-rajdhani: "Rajdhani", sans-serif;
-<<<<<<< HEAD
   --our-team__background-color:#FFFFFF;
   --our-team__text-color-light:rgb(102, 102, 102);
   --our-team__text-color-dark:#21243D;
-=======
   --we-explore__background-color:#FFFFFF;
   --we-explore__text-color-light:#666666;
   --we-explore__text-color-dark:#21243D;
->>>>>>> 2fa70c3104a51ffc496ff9ccb7284568b659714a
   --thema-light: #ffffff;
   --thema-dark: #000000;
   --thema-logo: #8d99ff;
@@ -56,7 +51,6 @@
   --what-we-do__about-us-button-backround:#8d99ff;
   scroll-behavior: smooth;
   
->>>>>>> 9a884cffe1a2e592f2b595aeb7f50432e6196f34
 }
 img {
   display: block;
