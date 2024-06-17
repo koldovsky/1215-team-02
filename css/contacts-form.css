@@ -28,12 +28,12 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0.02rem;
-    color: var(--title-color-services);
+    color: var(--global-title-color);
     text-transform: uppercase;
   }
 
   .contact__title {
-    color: var(--subtitle-color-services);
+    color: var(--global-subtitle-color);
     font-size: 50px;
     line-height: 1.2;
     font-family: "Rajdhani", sans-serif;
@@ -56,13 +56,13 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0.02rem;
-    color: var(--title-color-services);
+    color: var(--global-title-color);
     text-transform: none;
     margin-bottom: 20px 0;
   }
 
   .contact__section-title{
-    color: var(--subtitle-color-services);
+    color: var(--global-subtitle-color);
     font-size: 24px;
     line-height: 38.4px;
     font-family: "Rajdhani", sans-serif;
@@ -85,7 +85,7 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: normal;
-    color: var(--title-color-services);
+    color: var(--global-title-color);
     text-transform: none;
   }
 
@@ -100,7 +100,7 @@
     text-decoration: underline;
     font-style: normal;
     letter-spacing: normal;
-    color: var(--title-color-services);
+    color: var(--global-title-color);
     text-transform: none;
     margin: 5px 0;
   }
@@ -114,7 +114,7 @@
     text-align: left;
     font-style: normal;
     letter-spacing: normal;
-    color: var(--title-color-services);
+    color: var(--global-title-color);
     text-transform: none;
     margin: 5px 0;
   }
