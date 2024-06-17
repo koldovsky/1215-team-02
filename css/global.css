@@ -39,7 +39,13 @@
   --thema-dark: #000000;
   --thema-logo: #8d99ff;
   --thema-div: #f0f0f0;
+  --what-we-do__header-color:#666666;
+  --what-we-do__button-hover-color:#98d2c3;
+  --what-we-do__contact-button-backround-color:#232641;
+  --what-we-do__contact-buttons-text-color:#ffffff;
+  --what-we-do__about-us-button-backround:#8d99ff;
   scroll-behavior: smooth;
+  
 }
 img {
   display: block;
