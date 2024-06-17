@@ -9,9 +9,11 @@
   border-radius: 15px;
   background-color: var(--thema-div);
 }
+
 .checkbox {
   appearance: none;
 }
+
 .theme-toggle {
   position: absolute;
   top: 0;
@@ -20,6 +22,7 @@
   height: 100%;
   cursor: pointer;
 }
+
 .checkbox-circle {
   position: absolute;
   top: 50%;
@@ -36,9 +39,11 @@
   font-size: 10px;
   color: var(--thema-light);
 }
+
 .checkbox:checked ~ .checkbox-circle {
-  transform: translate(26px, -50%);
+  transform: translate(19px, -50%);
 }
+
 body.light {
   background-color: var(--thema-light);
 }
