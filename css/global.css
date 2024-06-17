@@ -10,17 +10,17 @@
   --hero-emerald: #87c8b7;
   --hero-white: #ffffff;
   --background-color-services: #f7f8f9;
-  --global-title-color: rgb(102, 102, 102);
-  --global-subtitle-color: rgb(33, 36, 61);
-  --global-text-color: rgb(102, 102, 102);
+  --global-title-color: #666666;
+  --global-subtitle-color: #21243d;
+  --global-text-color: #666666;
   --carousel-services__content__title: #22243d;
   --top-industries__learn-more-background-color: #98d2c2;
   --top-industries__learn-more-background-color-hover: #8d99ff;
-  --top-industries__learn-more-text-color: rgb(255, 255, 255);
-  --reviews-background: #f7f8f9;
-  --reviews-arrows-background: rgb(33, 36, 61);
-  --reviews-quotes-color: #d3d3d3;
-  --reviews-arrows-color: #fff;
+  --top-industries__learn-more-text-color: #ffffff;
+  --testimonials-background: #f7f8f9;
+  --testimonials-arrows-background: #21243d;
+  --testimonials-quotes-color: #d3d3d3;
+  --testimonials-arrows-color: #fff;
   --process-list-marker-color: #8d99ff;
   --bg-footer: #262626;
   --bg-footer-top: #1a1a1a;
@@ -28,18 +28,30 @@
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
   --we-explore__background-color:#FFFFFF;
-  --we-explore__text-color-light:rgb(102, 102, 102);
+  --we-explore__text-color-light:#666666;
   --we-explore__text-color-dark:#21243D;
   --font-ubuntu: "Ubuntu", sans-serif;
   --font-rajdhani: "Rajdhani", sans-serif;
+<<<<<<< HEAD
   --our-team__background-color:#FFFFFF;
   --our-team__text-color-light:rgb(102, 102, 102);
   --our-team__text-color-dark:#21243D;
+=======
+  --we-explore__background-color:#FFFFFF;
+  --we-explore__text-color-light:#666666;
+  --we-explore__text-color-dark:#21243D;
+>>>>>>> 2fa70c3104a51ffc496ff9ccb7284568b659714a
   --thema-light: #ffffff;
   --thema-dark: #000000;
   --thema-logo: #8d99ff;
   --thema-div: #f0f0f0;
+  --what-we-do__header-color:#666666;
+  --what-we-do__button-hover-color:#98d2c3;
+  --what-we-do__contact-button-backround-color:#232641;
+  --what-we-do__contact-buttons-text-color:#ffffff;
+  --what-we-do__about-us-button-backround:#8d99ff;
   scroll-behavior: smooth;
+  
 }
 img {
   display: block;

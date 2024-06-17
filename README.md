@@ -32,3 +32,4 @@ Liubomyr Krasivskyi
 Volodymyr Bukatar
 Nataliia Danchenko
 Valentyn Kutsak
+Nadiia Burdeniuk
