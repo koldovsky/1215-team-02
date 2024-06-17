@@ -12,6 +12,7 @@ window.addEventListener("load", function () {
     document.body.classList.add("light");
     document.getElementById("theme-icon").textContent = "☀";
   }
+  
   document.getElementById("checkbox").addEventListener("change", function () {
     const isDarkMode = this.checked;
     localStorage.setItem("theme", isDarkMode ? "dark" : "light");
