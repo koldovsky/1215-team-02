@@ -1,0 +1,43 @@
+.testimonials {
+  background-color: var(--testimonials-background);
+  padding: 90px 0;
+}
+.testimonials__all-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.testimonials__arrow {
+  background-color: var(--testimonials-arrows-background);
+  color: var(--testimonials-arrows-color);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 10px;
+}
+.testimonials__testimonials-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  letter-spacing: 0.15rem;
+}
+.testimonials__articles {
+  display: flex;
+  flex-direction: column;
+  color: var(--global-subtitle-color);
+  text-align: center;
+}
+.testimonials__author {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.075rem;
+}
+.testimonials__author-title {
+  font-weight: 400;
+}

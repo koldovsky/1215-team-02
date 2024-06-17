@@ -5,28 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HR Partner</title>
-    <link
-      rel="shortcut icon"
-      href="img/favicon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+  </head>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-      <nav
-        class="header-nav"
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
-      ></nav>
-    </div>
+        <nav
+          class="header-nav"
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="global.header-nav.partial.html"
+        ></nav>
+      </div>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -35,10 +32,10 @@
     </header>
     <main>
       <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.about-company.partial.html"
-    ></section>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.about-company.partial.html"
+      ></section>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -57,12 +54,17 @@
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="reviews.partial.html"
+        data-hx-get="why-choose-us.partial.html"
       ></section>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="process_how-we-work.partial.html"
+        data-hx-get="index.testimonials.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.process_how-we-work.partial.html"
       ></section>
       <section
         data-hx-trigger="load"
@@ -70,15 +72,15 @@
         data-hx-get="index.partners.partial.html"
       ></section>
       <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="we-explore.html"
-    ></section>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.we-explore.partial.html"
+      ></section>
       <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.want-improve-your-hr.partial.html"
-    ></section>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.want-improve-your-hr.partial.html"
+      ></section>
     </main>
     <footer>
       <div
@@ -87,6 +89,6 @@
         data-hx-get="index.footer.partial.html"
       ></div>
     </footer>
-    <!-- <script src="./js/menu-btn.js"></script> -->
+    <script src="./js/index.js"></script>
   </body>
 </html>

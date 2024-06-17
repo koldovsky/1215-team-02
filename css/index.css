@@ -1,11 +1,16 @@
 @import "global.css";
 @import "header.css";
+@import "what-we-do.css";
 @import "about-us.contacts-reference.css";
 @import "about-us.header-hero.css";
 @import "contacts.css";
 @import "contacts.location.css";
 @import "services.css";
-@import "reviews.css";
+@import "top-industries.css";
+@import "testimonials.css";
+@import "process_how-we-work.css";
 @import "footer.css";
 @import "partners.css";
 @import "stat.css";
+@import "we-explore.css";
+@import "thema.css";

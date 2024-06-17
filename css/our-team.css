@@ -1,0 +1,53 @@
+
+.staff {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--our-team__background-color);
+}
+.staff__intro {
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.staff__title {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font-ubuntu);
+    color: var(--our-team__text-color-light);
+}
+.staff__subtitle {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: var(--font-rajdhani);
+    color: var(--our-team__text-color-dark);
+}
+.staff__description {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--font-ubuntu);
+    color: var(--our-team__text-color-light);
+}
+.staff__avatar {
+    border-radius: 6px;
+    overflow: hidden;
+}
+.staff__name {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--font-rajdhani);
+    color: var(--our-team__text-color-dark);
+}
+.staff__position {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font-ubuntu);
+    color: var(--our-team__text-color-light);
+}
+.staff__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.staff__social-icon {
+    margin: 0 10px;
+}
