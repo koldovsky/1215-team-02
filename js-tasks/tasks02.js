@@ -61,3 +61,7 @@ function sumArray(array) {
     array.splice(maxIndex, 1);
     return array.reduce((sum, num) => sum + num, 0);
 }
+// https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
+function makeUpperCase(str) {
+ return str.toUpperCase()
+}
