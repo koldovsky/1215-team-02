@@ -35,3 +35,9 @@ function litres(time) {
 function lovefunc(flower1, flower2) {
   return (flower1 + flower2) % 2 !== 0;
 }
+
+// https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
+const stringToNumber = function(str){
+ let number = parseInt(str);
+    return number;
+}
