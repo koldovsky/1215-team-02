@@ -47,3 +47,17 @@ function findNeedle(haystack) {
  let index = haystack.indexOf("needle");
     return `found the needle at position ${index}`;
 }
+
+// https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript
+function sumArray(array) {
+     if (!Array.isArray(array) || array.length < 3) {
+        return 0;
+    }
+    let min = Math.min(...array);
+    let max = Math.max(...array);
+    let minIndex = array.indexOf(min);
+    array.splice(minIndex, 1);
+    let maxIndex = array.indexOf(max);
+    array.splice(maxIndex, 1);
+    return array.reduce((sum, num) => sum + num, 0);
+}
