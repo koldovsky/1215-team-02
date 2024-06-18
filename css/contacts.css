@@ -1,7 +1,7 @@
 @import "global.css";
 @import "header.css";
-@import "contact-us.css";
-@import "contacts-form.css";
+@import "contacts.contact-us.css";
+@import "contacts.contacts-form.css";
 @import "contacts.location.css";
 @import "footer.css";
-@import "theme.css";
+@import "global.theme.css";
