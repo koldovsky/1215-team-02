@@ -36,20 +36,6 @@ function lovefunc(flower1, flower2) {
   return (flower1 + flower2) % 2 !== 0;
 }
 
-// Додаткові завдання
-
-// What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
-function getRealFloor(n) {
-  if (n <= 0) return n;
-  if (n <= 13) return n - 1;
-  return n - 2;
-}
-
-// Is n divisible by x and y? https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
-function isDivisible(n, x, y) {
-  return n % x === 0 && n % y === 0 ? true : false;
-}
-
 // https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
 const stringToNumber = function (str) {
   let number = parseInt(str);
@@ -78,4 +64,18 @@ function sumArray(array) {
 // https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
 function makeUpperCase(str) {
   return str.toUpperCase();
+}
+
+// Додаткові завдання (П'ятниця 21.06)
+
+// What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
+function getRealFloor(n) {
+  if (n <= 0) return n;
+  if (n <= 13) return n - 1;
+  return n - 2;
+}
+
+// Is n divisible by x and y? https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0 ? true : false;
 }
