@@ -90,7 +90,7 @@
   margin-top:20px;
   font-family: var(--font-rajdhani);
 }
-@media (min-width: 768px) {
+@media (min-width: 780px) {
   .about-company {
     display: flex;
     flex-direction: row;
@@ -116,12 +116,11 @@
   object-fit: cover;
 }
 .button__container li {
-  margin-left: 10px;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1.3px;
   text-transform: uppercase;
   font-family:var(--font-ubuntu);
-  margin-top:40px;
+  gap:40px;
 }
 }
