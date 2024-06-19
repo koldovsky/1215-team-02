@@ -36,6 +36,15 @@ function lovefunc(flower1, flower2) {
   return (flower1 + flower2) % 2 !== 0;
 }
 
+// Додаткові завдання
+
+// What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
+function getRealFloor(n) {
+  if (n <= 0) return n;
+  if (n <= 13) return n - 1;
+  return n - 2;
+}
+
 // https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
 const stringToNumber = function (str) {
   let number = parseInt(str);
