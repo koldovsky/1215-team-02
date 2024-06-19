@@ -1,0 +1,206 @@
+.contact {
+  background: var(--background-color-services);
+}
+
+.contact-container {
+  padding: 120px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-container {
+    display: flex;
+    padding: 120px 0;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-container {
+    gap: 40px;
+  }
+}
+
+.contactintro {
+  font-size: 13px;
+  line-height: 1;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02rem;
+  color: var(--global-title-color);
+  text-transform: uppercase;
+}
+
+.contacttitle {
+  color: var(--global-subtitle-color);
+  font-size: 50px;
+  line-height: 1.2;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.47rem;
+  margin: 20px 0;
+}
+.contactdescription {
+  font-size: 18px;
+  line-height: 25.2px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  display: inline;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02rem;
+  color: var(--global-title-color);
+  text-transform: none;
+  margin-bottom: 20px 0;
+}
+
+.contactsection-title {
+  color: var(--global-subtitle-color);
+  font-size: 24px;
+  line-height: 38.4px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.15rem;
+  margin: 5px 0;
+}
+
+.contactaddress {
+  font-size: 17px;
+  line-height: 27.2px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  display: inline;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--global-title-color);
+  text-transform: none;
+}
+
+.contactphone,
+.contactemail {
+  font-size: 17px;
+  line-height: 27.2px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--global-title-color);
+  text-transform: none;
+  margin: 5px 0;
+}
+
+.contacthours {
+  font-size: 17px;
+  line-height: 27.2px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  display: block;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--global-title-color);
+  text-transform: none;
+  margin: 5px 0;
+}
+.form-container {
+  background-color: var(--contacts-form-bg);
+  display: block;
+  padding: 120px 15px;
+}
+
+.contactcontainer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media (min-width: 768px) {
+  .contactcontainer {
+    display: flex;
+    gap: 30px;
+  }
+  .contactdetails {
+    width: calc((100% - 30px) / 2);
+  }
+  .form-container {
+    width: calc((100% - 30px) / 2);
+  }
+}
+
+.form-container {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 20px 40px;
+  gap: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+.contactinput,
+.contacttextarea {
+  width: 100%;
+  padding: 14px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+  margin-top: 8px;  
+  margin-bottom: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 19.2px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f8f9;
+  transition: border-color 0.3s ease;
+}
+
+.contactinput:focus,
+.contacttextarea:focus {
+  border-color: #6c63ff;
+  border-radius: 5px;
+  border-width: 2px;
+  outline: none;
+}
+
+.contacttextarea {
+  resize: none;
+  height: 150px;
+}
+
+.contactsubmit {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactsubmit:hover {
+  background-color: var(--contacts-bg);
+}

@@ -5,7 +5,7 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.04em;
-    color: #21243d;
+    color: var(--about-us-titile);
     text-transform: uppercase;
   }
   .services {
@@ -14,7 +14,7 @@
   }
   .serviceslabel {
     margin: 20px 0;
-    color: #21243d;
+    color: var(--about-us-titile);
     font-size: 50px;
     line-height: 1.2;
     font-family: "Rajdhani", sans-serif;
@@ -24,7 +24,7 @@
     letter-spacing: 0.02em;
   }
   .servicestext-title {
-    color: #21243d;
+    color: var(--about-us-titile);
     font-size: 18px;
     line-height: 1.4;
     font-family: "Ubuntu", sans-serif;
@@ -41,7 +41,7 @@
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0.01rem;
-    color: #21243d;
+    color: var(--about-us-titile);
     text-transform: none;
     margin-bottom: 30px;
   }
