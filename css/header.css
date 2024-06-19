@@ -203,7 +203,7 @@
   justify-content: space-around;
   flex-direction: column;
   transform: translateX(100%);
-  background: #98d2c3;
+  background: var(--header-bg-menu);
   align-items: center;
 }
 .menu-container.is-open {
