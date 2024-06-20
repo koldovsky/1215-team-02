@@ -30,7 +30,7 @@ function min(arr, toReturn) {
 }
 
 function min(arr, toReturn) {
-  if(toReturn === 'value') return Math.min(...arr);
+  if (toReturn === "value") return Math.min(...arr);
   return arr.indexOf(Math.min(...arr));
 }
 
@@ -77,6 +77,12 @@ function nthEven(n) {
 //What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
 function getRealFloor(n) {
   if (n <= 0) return n;
+  if (n <= 13) return n - 1;
+  return n - 2;
+}
+
+function getRealFloor(n) {
+  if (n <= 0) return n;
   return n > 13 ? n - 2 : n - 1;
 }
 
@@ -86,6 +92,10 @@ function past(h, m, s) {
 }
 
 //Is n divisible by x and y https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0 ? true : false;
+}
+
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }

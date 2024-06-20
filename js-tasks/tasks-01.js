@@ -66,16 +66,4 @@ function makeUpperCase(str) {
   return str.toUpperCase();
 }
 
-// Додаткові завдання (П'ятниця 21.06)
 
-// What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
-function getRealFloor(n) {
-  if (n <= 0) return n;
-  if (n <= 13) return n - 1;
-  return n - 2;
-}
-
-// Is n divisible by x and y? https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
-function isDivisible(n, x, y) {
-  return n % x === 0 && n % y === 0 ? true : false;
-}
