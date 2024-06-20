@@ -11,18 +11,22 @@ function DNAtoRNA(dna) {
 // https://www.codewars.com/kata/577a98a6ae28071780000989/solutions/javascript
 const min = function (list) {
   return Math.min(...list);
-}
+};
 
 const max = function (list) {
   return Math.max(...list);
-}
+};
 
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
- function min(arr, toReturn) {
-  if(toReturn === "value")
-    return Math.min(...arr)
-  else
-    return arr.indexOf(Math.min(...arr), fromIndex = 0)
+function min(arr, toReturn) {
+  if (toReturn === "value") return Math.min(...arr);
+  else return arr.indexOf(Math.min(...arr), (fromIndex = 0));
+}
+
+function min(arr, toReturn) {
+  return toReturn === "value"
+    ? Math.min(...arr)
+    : arr.indexOf(Math.min(...arr));
 }
 
 // https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
@@ -48,4 +52,35 @@ const summation = function (num) {
 function betterThanAverage(classPoints, yourPoints) {
   const sum = classPoints.reduce((acc, curr) => acc + curr, 0);
   return yourPoints > sum / classPoints.length;
+}
+
+//Double Integer https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
+function doubleInteger(i) {
+  return i * 2;
+}
+
+//Twice as old https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(sonYearsOld * 2 - dadYearsOld);
+}
+
+//Return n-th even number https://www.codewars.com/kata/5933a1f8552bc2750a0000ed/train/javascript
+function nthEven(n) {
+  return n * 2 - 2;
+}
+
+//What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
+function getRealFloor(n) {
+  if (n <= 0) return n;
+  return n > 13 ? n - 2 : n - 1;
+}
+
+//Clock https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
+function past(h, m, s) {
+  return ((h * 60 + m) * 60 + s) * 1000;
+}
+
+//Is n divisible by x and y https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0;
 }
