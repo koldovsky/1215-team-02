@@ -29,6 +29,11 @@ function min(arr, toReturn) {
     : arr.indexOf(Math.min(...arr));
 }
 
+function min(arr, toReturn) {
+  if(toReturn === 'value') return Math.min(...arr);
+  return arr.indexOf(Math.min(...arr));
+}
+
 // https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
 function grow(x) {
   return x.reduce((acc, curr) => acc * curr, 1);
