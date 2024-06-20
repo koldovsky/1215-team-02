@@ -3,6 +3,28 @@ function stringToArray(string) {
   return string.split(" ");
 }
 
+// https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript
+function DNAtoRNA(dna) {
+  return dna.replaceAll("T", "U");
+}
+
+// https://www.codewars.com/kata/577a98a6ae28071780000989/solutions/javascript
+var min = function (list) {
+  return Math.min(...list);
+}
+
+var max = function (list) {
+  return Math.max(...list);
+}
+
+// https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+ function min(arr, toReturn) {
+  if(toReturn === "value")
+    return Math.min(...arr)
+  else
+    return arr.indexOf(Math.min(...arr), fromIndex = 0)
+}
+
 // https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
 function grow(x) {
   return x.reduce((acc, curr) => acc * curr, 1);
