@@ -27,7 +27,7 @@ function min(arr, toReturn) {
 
 // https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
 function grow(x) {
-  return x.reduce((acc, curr) => acc * curr, 1);
+  return x.reduce((acc, curr) => acc * curr);
 }
 
 // https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
