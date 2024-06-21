@@ -18,20 +18,11 @@ const max = function (list) {
 };
 
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
-function min(arr, toReturn) {
-  if (toReturn === "value") return Math.min(...arr);
-  else return arr.indexOf(Math.min(...arr), (fromIndex = 0));
-}
 
 function min(arr, toReturn) {
   return toReturn === "value"
     ? Math.min(...arr)
     : arr.indexOf(Math.min(...arr));
-}
-
-function min(arr, toReturn) {
-  if (toReturn === "value") return Math.min(...arr);
-  return arr.indexOf(Math.min(...arr));
 }
 
 // https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
@@ -75,11 +66,6 @@ function nthEven(n) {
 }
 
 //What's the real floor https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
-function getRealFloor(n) {
-  if (n <= 0) return n;
-  if (n <= 13) return n - 1;
-  return n - 2;
-}
 
 function getRealFloor(n) {
   if (n <= 0) return n;
@@ -92,9 +78,6 @@ function past(h, m, s) {
 }
 
 //Is n divisible by x and y https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
-function isDivisible(n, x, y) {
-  return n % x === 0 && n % y === 0 ? true : false;
-}
 
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
