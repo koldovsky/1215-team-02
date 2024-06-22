@@ -24,6 +24,7 @@ function buildFun(n) {
 
   for (let i = 0; i < n; i++) {
     res.push(function () {
+      console.log(i);
       return i;
     });
   }
