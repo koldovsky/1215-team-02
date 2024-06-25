@@ -114,6 +114,20 @@ function nextSlide() {
   renderSlides();
 }
 
+function prevSlide() {
+  currentIndex = currentIndex - 1 < 0 ? slides.length - 1 : currentIndex - 1;
+  renderSlides();
+}
+
 setInterval(nextSlide, 3000);
 
 renderSlides();
+
+const arrowLeft = document.querySelector('.testimonials__arrow--left');
+
+arrowLeft.addEventListener('click', prevSlide);
+
+const arrowRight = document.querySelector('.testimonials__arrow--right');
+
+arrowRight.addEventListener('click', nextSlide);
+
