@@ -113,7 +113,7 @@
   }
 }
 
-@media(min-width: 1100px){
+@media (min-width: 1100px) {
   .carousel-services__subtitle {
     font-size: 50px;
     letter-spacing: 7.5px;

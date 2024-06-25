@@ -1,11 +1,3 @@
-:root {
-  --background-color: #f7f8f9;
-  --text-color: #666666;
-  --heading-color: #21243d;
-  --font-ubuntu: "Ubuntu", sans-serif;
-  --font-rajdhani: "Rajdhani", sans-serif;
-}
-
 .partners {
   background-color: var(--background-color);
   color: var(--text-color);
