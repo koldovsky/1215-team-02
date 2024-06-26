@@ -114,9 +114,9 @@ function renderIndicators() {
   let indicatorsHtml = "";
   for (let i = 0; i < slides.length; i++) {
     if (i === currentIndex) {
-      indicatorsHtml += '<button class="indicator active">*</button>';
+      indicatorsHtml += '<button class="indicator active"></button>';
     } else {
-      indicatorsHtml += '<button class="indicator">*</button>';
+      indicatorsHtml += '<button class="indicator"></button>';
     }
   }
   const indicatorContainer = document.querySelector(
