@@ -1,7 +1,7 @@
 function init() {
   import("./menu-btn.js");
   import("./theme.js");
-  import("./accordion.js");
+  import("./about-us-accordion.js");
   import("./discountdown.js");
 }
 
