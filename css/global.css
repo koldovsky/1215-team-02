@@ -5,14 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --hero-green: #98d2c3;
   --hero-emerald: #87c8b7;
   --hero-white: #ffffff;
+  --header-bg-menu: #98d2c3;
   --background-color-services: #f7f8f9;
   --global-title-color: #666666;
   --global-subtitle-color: #21243d;
   --global-text-color: #666666;
+  --bg-contact: #1f2030;
+  --bg-cont: #8d99ff;
   --carousel-services__content__title: #22243d;
   --carousel-services-indicators: #9d9b9b;
   --top-industries__learn-more-background-color: #98d2c2;
@@ -23,16 +27,24 @@
   --testimonials-quotes-color: #d3d3d3;
   --testimonials-arrows-color: #fff;
   --process-list-marker-color: #8d99ff;
+  --about-us-titile: #21243d;
   --bg-footer: #262626;
   --bg-footer-top: #1a1a1a;
   --faq-bg: #f7f8f9;
   --faq-text: #21243d;
   --faq-nav: #8d99ff;
+  --contacts-bg: #87c8b7;
+  --contacts-form-bg: #ffffff; 
+  --contacts-form-textarea: #21243D;
+  --contacts-form-button-bg: #8d99ff;
   --we-explore__background-color:#FFFFFF;
   --we-explore__text-color-light:#666666;
   --we-explore__text-color-dark:#21243D;
   --font-ubuntu: "Ubuntu", sans-serif;
   --font-rajdhani: "Rajdhani", sans-serif;
+  --our-team__background-color:#FFFFFF;
+  --our-team__text-color-light:rgb(102, 102, 102);
+  --our-team__text-color-dark:#21243D;
   --we-explore__background-color:#FFFFFF;
   --we-explore__text-color-light:#666666;
   --we-explore__text-color-dark:#21243D;
@@ -40,7 +52,21 @@
   --thema-dark: #000000;
   --thema-logo: #8d99ff;
   --thema-div: #f0f0f0;
+  --background-color: #f7f8f9;
+  --text-color: #666666;
+  --heading-color: #21243d;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --stats-bg: #f7f8f9;
+  --stats-item: #666;
+  --stats-number: rgb(221, 225, 230);
+  --what-we-do__header-color:#666666;
+  --what-we-do__button-hover-color:#98d2c3;
+  --what-we-do__contact-button-backround-color:#232641;
+  --what-we-do__contact-buttons-text-color:#ffffff;
+  --what-we-do__about-us-button-backround:#8d99ff;
   scroll-behavior: smooth;
+  
 }
 img {
   display: block;

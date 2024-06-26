@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 40px;
+        }
+        .header__title {
+            font-size: 36px;
+            margin: 0;
+            color: #222;
+        }
+        .header__subtitle {
+            font-size: 18px;
+            color: #777;
+        }
+        .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .benefit {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .benefit__icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .benefit__title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .benefit__description {
+            font-size: 16px;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .benefit {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .benefit {
+                flex: 1 1 100%;
+            }
+        }
+    </style>

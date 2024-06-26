@@ -1,8 +1,9 @@
 function init() {
   import("./menu-btn.js");
-  import("./thema.js");
+  import("./theme.js");
   import("./accordion.js");
   import("./index.services-carousel.js")
+  import("./index.testimonials-carousel.js");
 }
 
 const totalPartials = document.querySelectorAll(
