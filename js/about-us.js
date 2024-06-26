@@ -3,6 +3,7 @@ function init() {
   import("./theme.js");
   import("./about-us-accordion.js");
   import("./discountdown.js");
+  import("./to-top.js");
 }
 
 const totalPartials = document.querySelectorAll(
