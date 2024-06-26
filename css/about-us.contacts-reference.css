@@ -10,15 +10,20 @@
 .contacts-reference_container {
   display: grid;
   gap: 2rem;
-  justify-content: center;
-  align-items: center;
   max-width: 1200px;
   color: var(--hero-white);
   font-family: var(--font-rajdhani);
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    align-items: center;
+  }
 }
 
 .contacts-reference__article {
   text-wrap: pretty;
+
   .contacts-reference__article-title {
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
@@ -34,16 +39,25 @@
   }
 }
 
+.contacts-reference__link__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .contacts-reference__link {
+  width: 100%;
   background-color: var(--global-subtitle-color);
   color: var(--hero-white);
   padding: 15px 30px;
   border-radius: 6px;
-  margin-left: 15px;
   transition: background-color 0.2s ease-out;
+  margin-bottom: 1px;
 
   .contacts-reference__link-text {
-    font-size: 0.85rem;
+    font-size: clamp(0.5rem, 0.85rem, 1rem);
+    text-wrap: nowrap;
     font-weight: 600;
     letter-spacing: 0.2rem;
     text-align: center;
@@ -54,10 +68,15 @@
   background-color: var(--hero-green);
 }
 
-@media (min-width: 768px) {
-  .contacts-reference_container {
-    display: grid;
-    grid-template-columns: 2.5fr 1fr;
-    align-items: center;
-  }
+.discountdown {
+  font-size: clamp(0.5rem, 0.85rem, 1rem);
+  font-weight: 600;
+  text-align: center;
+  text-wrap: nowrap;
+  color: black;
+}
+
+.countdown-span {
+  color: brown;
+  font-size: clamp(0.85rem, 1rem, 1.3rem);
 }
