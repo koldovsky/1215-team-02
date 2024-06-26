@@ -14,7 +14,10 @@
   font-size: 0.75rem;
   text-align: center;
   padding: 10px;
-  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 .testimonials__testimonials-item {
   display: flex;
@@ -55,7 +58,10 @@
     border-radius: 50%;
     background-color: var(--testimonials-quotes-color);
     border: none;
-    cursor: pointer;
+    
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .active {
