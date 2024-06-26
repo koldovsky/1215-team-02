@@ -41,3 +41,14 @@
 .testimonials__author-title {
   font-weight: 400;
 }
+.testimonials__carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  .active {
+    background-color: red;
+  }
+}
+
