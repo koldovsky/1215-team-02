@@ -1,6 +1,5 @@
-console.log("thema");
 const savedTheme = localStorage.getItem("theme");
-console.log(savedTheme);
+
 if (savedTheme) {
   document.body.classList.add(savedTheme);
   document.getElementById("checkbox").checked = savedTheme === "dark";
