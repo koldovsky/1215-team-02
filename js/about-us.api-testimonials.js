@@ -23,7 +23,7 @@ async function renderApiTestimonials(element, testimonials) {
     testimonials[Math.floor(Math.random() * testimonials.length)].body;
   element.innerHTML = `<article class="api-testimonials-carousel__item">
         <div class="api-testimonials-carousel__image">
-            <img src="${image_url}">
+            <img src="${image_url}" alt="Our client photo">
         </div>
         <div class="api-testimonials-carousel__text">            
             <p class="api-testimonials-carousel__text-body">"${body}"</p>
