@@ -4,11 +4,20 @@ const element = document.querySelector(".api-testimonials-carousel");
 renderApiTestimonials(element, apiTestimonials);
 
 async function renderApiTestimonials(element, testimonials) {
-  const response = await fetch(
-    "https://fakerapi.it/api/v1/persons?_quantity=1"
-  );
-  const user = await response.json();
-  const name = user.data[0].firstname + " " + user.data[0].lastname;
+  let name = "";
+  try {
+    const response = await fetch(
+      "https://fakerapi.it/api/v1/persons?_quantity=1"
+    );
+    const user = await response.json();
+    if (user.status === "OK") {
+      name = user.data[0].firstname + " " + user.data[0].lastname;
+    } else {
+      name = "John Doe";
+    }
+  } catch {
+    name = "John Doe";
+  }
   const image_url = "https://thispersondoesnotexist.com/";
   const body =
     testimonials[Math.floor(Math.random() * testimonials.length)].body;
