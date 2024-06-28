@@ -1,0 +1,28 @@
+.api-testimonials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.api-testimonials-carousel {
+  width: 100%;
+}
+.api-testimonials-carousel__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.api-testimonials-carousel__image {
+  min-height: 50px;
+  max-width: 100px;
+}
+.api-testimonials-carousel__text {
+}
+.api-testimonials-carousel__text-name {
+  padding-left: 10px;
+}
+.api-testimonials-carousel__text-body {
+  font-style: italic;
+}
