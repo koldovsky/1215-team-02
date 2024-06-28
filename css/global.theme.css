@@ -76,3 +76,6 @@ body.dark .header-about {
   background-color: grey;
   color: var(--thema-light);
 }
+body.dark .menu-container.is-open  {
+  background: #000000;
+}

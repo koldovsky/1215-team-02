@@ -277,3 +277,6 @@
   display: flex;
   gap: 40px;
 }
+.no-scroll {
+  overflow: hidden;
+}
