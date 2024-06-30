@@ -83,3 +83,21 @@
 .testimonials__indicator-active {
   background-color: var(--global-subtitle-color);
 }
+
+@media (min-width: 600px) {
+  .testimonials__carousel-wrapper {
+    max-width: 80vh;
+  }
+  .testimonials__item {
+    max-width: 80vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .testimonials__carousel-wrapper {
+    max-width: 90vh;
+  }
+  .testimonials__item {
+    max-width: 90vh;
+  }
+}
