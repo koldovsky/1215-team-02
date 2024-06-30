@@ -1,7 +1,7 @@
 function init() {
   import("./menu-btn.js");
   import("./theme.js");
-  import("./index.services-carousel.js")
+  import("./index.services-carousel.js");
   import("./index.testimonials-carousel.js");
   import("./to-top.js");
 }
