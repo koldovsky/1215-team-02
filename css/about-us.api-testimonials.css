@@ -1,9 +1,11 @@
 .api-testimonials {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 70px;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .api-testimonials-carousel {
@@ -52,4 +54,17 @@
 }
 .carousel__button--next {
   right: 10px;
+}
+
+.api-testimonials-carousel__indicators-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.api-testimonials-carousel__indicator {
+}
+
+.api-testimonials-carousel__indicator.active {
+  background-color: brown;
 }

@@ -52,21 +52,17 @@ async function renderApiTestimonials(element, testimonials) {
         </div>
      </article>`;
   }
-  showButtons();
+  updateCarousel(currentSlide);
 }
 
 function prevSlide() {
-  const carouselPosition = `translateX(-${currentSlide * 100 - 100}%)`;
-  element.style.transform = carouselPosition;
   currentSlide -= 1;
-  showButtons();
+  updateCarousel(currentSlide);
 }
 
 function nextSlide() {
-  const carouselPosition = `translateX(-${currentSlide * 100 + 100}%)`;
-  element.style.transform = carouselPosition;
   currentSlide += 1;
-  showButtons();
+  updateCarousel(currentSlide);
 }
 
 function showButtons() {
@@ -76,4 +72,30 @@ function showButtons() {
   currentSlide < 4
     ? (buttonNext.style.display = "block")
     : (buttonNext.style.display = "none");
+}
+
+const indicators = Array.from(
+  document.querySelectorAll(".api-testimonials-carousel__indicator")
+);
+function showIndicators() {
+  for (let indicator of indicators) {
+    indicators.indexOf(indicator) === currentSlide
+      ? indicator.classList.add("active")
+      : indicator.classList.remove("active");
+    indicator.addEventListener("click", () =>
+      indicatorClick(indicators.indexOf(indicator))
+    );
+  }
+}
+
+function indicatorClick(index) {
+  currentSlide = index;
+  updateCarousel(currentSlide);
+}
+
+function updateCarousel(currentSlide) {
+  const carouselPosition = `translateX(-${currentSlide * 100}%)`;
+  element.style.transform = carouselPosition;
+  showButtons();
+  showIndicators();
 }
