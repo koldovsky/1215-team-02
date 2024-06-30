@@ -77,14 +77,18 @@ function showButtons() {
 const indicators = Array.from(
   document.querySelectorAll(".api-testimonials-carousel__indicator")
 );
+
+for (let indicator of indicators) {
+  indicator.addEventListener("click", () =>
+    indicatorClick(indicators.indexOf(indicator))
+  );
+}
+
 function showIndicators() {
   for (let indicator of indicators) {
     indicators.indexOf(indicator) === currentSlide
       ? indicator.classList.add("active")
       : indicator.classList.remove("active");
-    indicator.addEventListener("click", () =>
-      indicatorClick(indicators.indexOf(indicator))
-    );
   }
 }
 
