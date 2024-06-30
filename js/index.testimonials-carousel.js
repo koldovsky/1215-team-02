@@ -170,5 +170,4 @@ function renderIndicators() {
 function startAutoSlide() {
   autoSlideInterval = setInterval(() => moveSlide(1), 3000); // Change slide every 3 seconds
 }
-
 startAutoSlide();
