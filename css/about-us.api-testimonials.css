@@ -3,17 +3,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 70px; 
+  padding-top: 70px;
 }
 
-.api-testimonials-carousel {  
-  overflow-x: hidden; 
+.api-testimonials-carousel {
+  overflow-x: hidden;
   position: relative;
 }
 
 .api-testimonials-carousel__inner {
   width: 100%;
-  display: flex;  
+  display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -23,7 +23,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;   
+  gap: 30px;
 }
 .api-testimonials-carousel__image {
   min-height: 50px;

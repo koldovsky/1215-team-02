@@ -11,7 +11,9 @@ function formatCountdown() {
   const hours = time.hours.length < 2 ? "0" + time.hours : time.hours;
   const minutes = time.minutes.length < 2 ? "0" + time.minutes : time.minutes;
   const seconds = time.seconds.length < 2 ? "0" + time.seconds : time.seconds;
-  return `50% DISCOUNT ON FIRST CONSULTATION:<br><span class="countdown-span">${days} Days ${hours}:${minutes}:${seconds}</span>`;
+  return `50% DISCOUNT ON FIRST CONSULTATION:<br><span class="countdown-span">${
+    days === "0" ? "" : `${days} ${days === "1" ? "Day" : "Days"}`
+  } ${hours}:${minutes}:${seconds}</span>`;
 }
 
 function humanizeRemainingTime() {

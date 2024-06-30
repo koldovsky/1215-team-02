@@ -2,9 +2,9 @@ const response = await fetch("api/testimonials.json");
 const apiTestimonials = await response.json();
 const element = document.querySelector(".api-testimonials-carousel__inner");
 const buttonPrev = document.querySelector(".carousel__button--prev");
-buttonPrev.addEventListener("click", prevSlide)
+buttonPrev.addEventListener("click", prevSlide);
 const buttonNext = document.querySelector(".carousel__button--next");
-buttonNext.addEventListener("click", nextSlide)
+buttonNext.addEventListener("click", nextSlide);
 let currentSlide = 0;
 renderApiTestimonials(element, apiTestimonials);
 
@@ -51,7 +51,7 @@ async function renderApiTestimonials(element, testimonials) {
             }</p>
         </div>
      </article>`;
-  }  
+  }
   showButtons();
 }
 
@@ -69,7 +69,11 @@ function nextSlide() {
   showButtons();
 }
 
-function showButtons() {  
-  currentSlide > 0 ? buttonPrev.style.display = "block" : buttonPrev.style.display = "none";
-  currentSlide < 4 ? buttonNext.style.display = "block" : buttonNext.style.display = "none";
+function showButtons() {
+  currentSlide > 0
+    ? (buttonPrev.style.display = "block")
+    : (buttonPrev.style.display = "none");
+  currentSlide < 4
+    ? (buttonNext.style.display = "block")
+    : (buttonNext.style.display = "none");
 }
