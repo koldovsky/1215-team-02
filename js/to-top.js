@@ -1,4 +1,4 @@
-let toTopBtn = document.getElementById("toTopBtn");
+const toTopBtn = document.getElementById("toTopBtn");
 
 window.addEventListener("scroll", scrollFunction )
 

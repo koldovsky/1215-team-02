@@ -1,0 +1,70 @@
+.api-testimonials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.api-testimonials-carousel {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.api-testimonials-carousel__inner {
+  width: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.api-testimonials-carousel__item {
+  flex: 0 0 100%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.api-testimonials-carousel__image {
+  min-height: 50px;
+  max-width: 100px;
+}
+.api-testimonials-carousel__text {
+}
+.api-testimonials-carousel__text-name {
+  padding-left: 10px;
+}
+.api-testimonials-carousel__text-body {
+  font-style: italic;
+}
+
+.api-testimonials-carousel__button {
+  position: absolute;
+  top: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  z-index: 1;
+}
+.carousel__button--prev {
+  left: 10px;
+}
+.carousel__button--next {
+  right: 10px;
+}
+
+.api-testimonials-carousel__indicators-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.api-testimonials-carousel__indicator {
+}
+
+.api-testimonials-carousel__indicator.active {
+  background-color: brown;
+}

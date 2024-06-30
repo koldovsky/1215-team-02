@@ -100,7 +100,20 @@
   font-style: normal;
   letter-spacing: 0.02rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
+
+.accordion__header::after {
+  content: "►";
+  float: right;
+  font-size: 18px;
+  transition: transform 0.3s ease-out;
+}
+
+.accordion__header.active::after {
+  transform: rotate(180deg);
+}
+
 .accordion__text {
   font-size: 17px;
   line-height: 1.6;
@@ -112,23 +125,19 @@
   color: var(--faq-text);
   text-transform: none;
 }
+
 .accordion__content {
   display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
 }
 
 .accordion__content.active {
   display: block;
+  max-height: 1000px;
+  padding: 10px 0;
 }
-
-.accordion__header::after {
-  content: "►";
-  float: right;
-  font-size: 18px;
-}
-
-.accordion__header.active::after {
-  content: "▲";
-}
-.accordion__item {
-  border-bottom: 0.5px solid grey;
+.accordion__item{
+  border-bottom: 1px solid grey;
 }
