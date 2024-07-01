@@ -6,36 +6,46 @@
   align-items: center;
   margin-top: 90px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .api-testimonials-carousel {
   overflow-x: hidden;
   position: relative;
+  width: 100%;
 }
 
 .api-testimonials-carousel__inner {
   width: 100%;
   display: flex;
   transition: transform 0.5s ease-in-out;
+  box-sizing: border-box;
 }
 
 .api-testimonials-carousel__item {
-  flex: 0 0 100%;
   width: 100%;
+  flex: 0 0 100%;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  box-sizing: border-box;
 }
+
 .api-testimonials-carousel__image {
   min-height: 50px;
   max-width: 100px;
+  box-sizing: border-box;
 }
+
 .api-testimonials-carousel__text {
+  box-sizing: border-box;
 }
+
 .api-testimonials-carousel__text-name {
   padding-left: 10px;
 }
+
 .api-testimonials-carousel__text-body {
   font-style: italic;
 }
@@ -43,15 +53,33 @@
 .api-testimonials-carousel__button {
   position: absolute;
   top: 50%;
+  width: 40px;
+  height: 40px;
   border: none;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
   cursor: pointer;
   font-weight: 700;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  @media (max-width: 1000px) {
+    display: none !important;
+  }
 }
+
+.api-testimonials-carousel__button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .carousel__button--prev {
   left: 10px;
 }
+
 .carousel__button--next {
   right: 10px;
 }
@@ -59,12 +87,20 @@
 .api-testimonials-carousel__indicators-container {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .api-testimonials-carousel__indicator {
+  width: 12px;
+  height: 12px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .api-testimonials-carousel__indicator.active {
   background-color: brown;
+  transform: scale(1.2);
 }
