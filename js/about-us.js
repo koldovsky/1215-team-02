@@ -2,6 +2,7 @@ function init() {
   import("./menu-btn.js");
   import("./theme.js");
   import("./about-us-accordion.js");
+  import("./about-us.why-choose-us.js");
   import("./about-us.discountdown.js");
   import("./about-us.api-testimonials.js");
   import("./to-top.js");
