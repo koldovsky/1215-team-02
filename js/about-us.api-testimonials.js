@@ -6,16 +6,18 @@ buttonPrev.addEventListener("click", prevSlide);
 const buttonNext = document.querySelector(".carousel__button--next");
 buttonNext.addEventListener("click", nextSlide);
 let currentSlide = 0;
+let slideInterval;
+
 renderApiTestimonials(element, apiTestimonials);
 
 async function renderApiTestimonials(element, testimonials) {
-  const formattedUsers = [
-    { id: 1 },
-    { id: 2 },
-    { id: 3 },
-    { id: 4 },
-    { id: 5 },
-  ];
+  const formattedUsers = [];
+  for (let step = 0; step < 5; step++) {
+    formattedUsers.push(
+      testimonials[Math.floor(Math.random() * testimonials.length)]
+    );
+  }
+
   try {
     const response = await fetch(
       "https://fakerapi.it/api/v1/persons?_quantity=5"
@@ -40,15 +42,11 @@ async function renderApiTestimonials(element, testimonials) {
   for (let user of formattedUsers) {
     element.innerHTML += `<article class="api-testimonials-carousel__item">
         <div class="api-testimonials-carousel__image">
-            <img src="https://thispersondoesnotexist.com" alt="Our client photo">
+            <img src=${user.photo} alt="Our client photo">
         </div>
         <div class="api-testimonials-carousel__text">            
-            <p class="api-testimonials-carousel__text-body">"${
-              testimonials[Math.floor(Math.random() * testimonials.length)].body
-            }"</p>
-            <p class="api-testimonials-carousel__text-name">&Tab;&mdash; ${
-              user.name
-            }</p>
+            <p class="api-testimonials-carousel__text-body">"${user.body}"</p>
+            <p class="api-testimonials-carousel__text-name">&Tab;&mdash; ${user.name}</p>
         </div>
      </article>`;
   }
@@ -57,11 +55,17 @@ async function renderApiTestimonials(element, testimonials) {
 
 function prevSlide() {
   currentSlide -= 1;
+  if (currentSlide < 0) {
+    currentSlide = 4;
+  }
   updateCarousel(currentSlide);
 }
 
 function nextSlide() {
   currentSlide += 1;
+  if (currentSlide > 4) {
+    currentSlide = 0;
+  }
   updateCarousel(currentSlide);
 }
 
@@ -102,4 +106,10 @@ function updateCarousel(currentSlide) {
   element.style.transform = carouselPosition;
   showButtons();
   showIndicators();
+  resetInterval();
+}
+
+function resetInterval() {
+  clearInterval(slideInterval);
+  slideInterval = setInterval(nextSlide, 5000);
 }
