@@ -4,6 +4,7 @@ function init() {
   import("./about-us-accordion.js");
   import("./about-us.why-choose-us.js");
   import("./about-us.discountdown.js");
+  import("./about-us.contacts-reference-dialog.js");
   import("./about-us.api-testimonials.js");
   import("./to-top.js");
 }

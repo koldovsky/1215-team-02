@@ -56,6 +56,7 @@
   color: var(--hero-white);
   padding: 15px 30px;
   border-radius: 6px;
+  border: none;
   transition: background-color 0.2s ease-out;
   margin-bottom: 1px;
 
@@ -65,11 +66,13 @@
     font-weight: 600;
     letter-spacing: 0.2rem;
     text-align: center;
+    font-family: var(--font-rajdhani);
   }
 }
 
 .contacts-reference__link:hover {
   background-color: var(--hero-green);
+  cursor: pointer;
 }
 
 .discountdown {
@@ -83,4 +86,106 @@
 .countdown-span {
   color: brown;
   font-size: clamp(22px, 1.5vw, 25px);
+  font-weight: bold;
+}
+
+.contacts-reference__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 50ch;
+  background-color: var(--hero-green);
+  font-family: var(--font-rajdhani);
+  width: 30%;
+}
+
+dialog[open] {
+  animation: fadein 0.5s ease-in-out forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contacts-reference__dialog::backdrop {
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.contacts-reference__dialog-container {
+}
+
+.contacts-reference__dialog-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  font-family: var(--font-ubuntu);
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.contacts-reference__dialog-close {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.contacts-reference__dialog-title {
+}
+
+.contacts-reference__dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--font-rajdhani);
+  font-size: 20px;
+}
+
+.contacts-reference__dialog-form-area {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 10px;
+}
+
+.contacts-reference__dialog-form-input {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.contacts-reference__dialog-form-input:focus {
+  outline-color: var(--hero-emerald);
+  outline-style: outset;
+  outline-offset: 4px;
+}
+
+.contacts-reference__dialog-form-submit {
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  font-family: var(--font-rajdhani);
+  font-size: 18px;
+}
+
+.contacts-reference__dialog-form-submit:hover {
+  background-color: var(--hero-emerald);
 }

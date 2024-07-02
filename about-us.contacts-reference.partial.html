@@ -19,11 +19,51 @@
           </p>
         </article>
         <div class="contacts-reference__link__container container">
-          <a class="contacts-reference__link" href="contacts.html"
-            ><p class="contacts-reference__link-text">
-              LET'S TALK RIGHT NOW
-            </p></a
-          >
+          <button class="contacts-reference__link">
+            <p class="contacts-reference__link-text">LET'S TALK RIGHT NOW</p>
+          </button>
+          <dialog class="contacts-reference__dialog">
+            <div class="contacts-reference__dialog-container">
+              <div class="contacts-reference__dialog-header">
+                <p class="contacts-reference__dialog-title">CONTACT US</p>
+                <button class="contacts-reference__dialog-close">X</button>
+              </div>
+              <form
+                action=""
+                method="dialog"
+                class="contacts-reference__dialog-form"
+                target="_parent"
+              >
+                <div class="contacts-reference__dialog-form-area">
+                  <label for="name">Enter your name: </label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    class="contacts-reference__dialog-form-input"
+                  />
+                </div>
+                <div class="contacts-reference__dialog-form-area">
+                  <label for="email">Enter your email: </label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    class="contacts-reference__dialog-form-input"
+                  />
+                </div>
+                <div class="contacts-reference__dialog-form-area">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="contacts-reference__dialog-form-submit"
+                  />
+                </div>
+              </form>
+            </div>
+          </dialog>
           <!-- find me in js/discountdown.js -->
           <p class="discountdown"></p>
         </div>
