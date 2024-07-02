@@ -100,7 +100,7 @@
   max-width: 50ch;
   background-color: var(--hero-green);
   font-family: var(--font-rajdhani);
-  width: 30%;
+  min-width: 30%;
 }
 
 dialog[open] {
