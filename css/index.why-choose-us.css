@@ -70,12 +70,12 @@ p {
 
 .benefit {
     background-color: white;
-    padding: 20px;
+    padding: 1px;
     flex: 1 1 calc(33.333% - 55px);
     box-sizing: border-box;
     display: flex;
     align-items: flex-start;
-    gap: 15px;
+    gap: 10px;
     text-align: left;
 }
 
