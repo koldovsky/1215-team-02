@@ -22,7 +22,7 @@
   margin-top: 20px;
 }
 .stats__label {
-  color: var(--subtitle-color-services);
+  color: var(--carousel-services__content__title);
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   font-size: 30px;
