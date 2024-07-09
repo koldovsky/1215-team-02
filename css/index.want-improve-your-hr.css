@@ -1,60 +1,73 @@
 .contact-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-cont);
-  padding: 100px;
-  text-align: center;
-  color: var(--hero-white);
-}
-
-.contact-section__question {
-  font-size: 13px;
-  line-height: 1;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.02rem;
-  color: var(--hero-white);
-  text-transform: uppercase;
-}
-
-.contact-section__headline {
-  color: var(--hero-white);
-  font-size: 50px;
-  line-height: 1.2;
-  font-family: "Rajdhani", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-style: normal;
-  letter-spacing: 0.02rem;
-  margin: 20px 0;
-}
-
-.contact-section__text {
-  color: var(--hero-white);
-  font-size: 18px;
-  line-height: 1.4;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 0.02rem;
-  text-transform: var(--ui-subtitle-text-transform);
-  margin-bottom: 20px;
-}
-
-.contact-section__button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #282a3a;
-  color: var(--hero-white);
-  text-decoration: none;
-  font-size: 26px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.contact-section__button:hover {
-  background-color: var(--bg-contact);
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-cont);
+    padding: 100px;
+    text-align: center;
+    color: var(--hero-white);
+    position: relative;
+  }
+  
+  .contact-section__question {
+    font-size: 13px;
+    line-height: 1;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+    color: var(--hero-white);
+    text-transform: uppercase;
+  }
+  
+  .contact-section__headline {
+    color: var(--hero-white);
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+    margin: 20px 0;
+  }
+  
+  .contact-section__text {
+    color: var(--hero-white);
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+    text-transform: var(--ui-subtitle-text-transform);
+    margin-bottom: 20px;
+  }
+  
+  .contact-section__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #282a3a;
+    color: var(--hero-white);
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: "Rajdhani", sans-serif;
+  }
+  
+  .contact-section__button:hover {
+    background-color: var(--bg-contact);
+  }
+  
+  
+  .clock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--hero-white);
+    font-family: "Rajdhani", sans-serif;
+    font-size: 24px;
+  }
+  
