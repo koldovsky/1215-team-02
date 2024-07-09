@@ -5,13 +5,12 @@ let currentIndex = 0;
 
 function changeBackgroundImage() {
     const currentImage = images[currentIndex];
-    element.style.transition = 'opacity 1s ease-in-out'; // Додаємо плавність
-    element.style.opacity = 0; // Змінюємо прозорість на 0
+    element.style.transition = 'opacity 1s ease-in-out'; 
+    element.style.opacity = 0; 
     setTimeout(() => {
       element.style.backgroundImage = `url('${currentImage}')`;
-      element.style.opacity = 1; // Змінюємо прозорість на 1
-    }, 1000); // Затримка 0.5 секунди
+      element.style.opacity = 1; 
+    }, 1000); 
     currentIndex = (currentIndex + 1) % images.length;
   }
-// Викликаємо функцію кожні 2 секунди
 setInterval(changeBackgroundImage, 5000);
